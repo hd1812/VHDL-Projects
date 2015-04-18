@@ -1,0 +1,31 @@
+@P: vdp Part : a3265dx-2 
+@P: vdp Combinational Cells : 637 of 475 (134%) 
+@P: vdp Sequential Cells : 157 of 510 (31%) 
+@P: vdp Total Cells : 794 of 985 (81%) 
+@P: vdp DSP Blocks : 0 
+@P: vdp IO Cells : 62 
+@P:  Worst Slack : 470.600
+@P:  vdp|clk - Estimated Frequency : 8.2 MHz
+@P:  vdp|clk - Requested Frequency : 1.0 MHz
+@P:  vdp|clk - Estimated Period : 121.350
+@P:  vdp|clk - Requested Period : 1000.000
+@P:  vdp|clk - Slack : 470.600
+@P:  Worst Slack(min analysis) : 2.310
+@P:  vdp|clk - Estimated Frequency(min analysis) : 8.2 MHz
+@P:  vdp|clk - Requested Frequency(min analysis) : 1.0 MHz
+@P:  vdp|clk - Estimated Period(min analysis) : 121.350
+@P:  vdp|clk - Requested Period(min analysis) : 1000.000
+@P:  vdp|clk - Slack(min analysis) : 470.600
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0

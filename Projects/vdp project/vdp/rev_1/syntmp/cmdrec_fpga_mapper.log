@@ -1,0 +1,10 @@
+C:\EEE\Synopsys\fpga_I-2013.09-SP1\bin64\m_actel.exe  -prodtype  synplify_premier  -encrypt  -pro  -rundir  H:\vdp\rev_1  -part A3265DX  -grade -2   -maxfan 16   -RWCheckOnRam 0   -ovhdl "proj_1.vhm"   -summaryfile H:\vdp\rev_1\synlog\report\proj_1_fpga_mapper.xml -act2 -top_level_module  vdp  -oedif  H:\vdp\rev_1\proj_1.edn  -freq 1.000  H:\vdp\rev_1\synwork\proj_1_comp.srs  -devicelib  C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\actel\a3200dx.v  -ologparam  H:\vdp\rev_1\syntmp\proj_1.plg  -osyn  H:\vdp\rev_1\proj_1.srm  -prjdir  H:\vdp\  -prjname  proj_1  -log  H:\vdp\rev_1\synlog\proj_1_fpga_mapper.srr 
+rc:1 success:1
+H:\vdp\rev_1\proj_1.edn|o|1427317525|587404
+H:\vdp\rev_1\synwork\proj_1_comp.srs|i|1427317514|20764
+C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\actel\a3200dx.v|i|1385096638|56304
+H:\vdp\rev_1\syntmp\proj_1.plg|o|1427317525|1072
+H:\vdp\rev_1\proj_1.srm|o|1427317524|952596
+H:\vdp\rev_1\synlog\proj_1_fpga_mapper.srr|o|1427317525|15252
+C:\EEE\Synopsys\fpga_I-2013.09-SP1\bin64\m_actel.exe|i|1385532762|11039232
+C:\EEE\Synopsys\fpga_I-2013.09-SP1\bin\m_actel.exe|i|1385530008|9272320

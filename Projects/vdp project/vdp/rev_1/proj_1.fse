@@ -1,0 +1,24 @@
+
+fsm_encoding {12449442} sequential
+
+fsm_state_encoding {12449442} m3 {00}
+
+fsm_state_encoding {12449442} m2 {01}
+
+fsm_state_encoding {12449442} m1 {10}
+
+fsm_state_encoding {12449442} mx {11}
+
+fsm_registers {12449442} {state[1]}  {state[0]} 
+
+fsm_encoding {12559551} sequential
+
+fsm_state_encoding {12559551} r2 {00}
+
+fsm_state_encoding {12559551} r1 {01}
+
+fsm_state_encoding {12559551} rx {10}
+
+fsm_state_encoding {12559551} rmv {11}
+
+fsm_registers {12559551} {rstate[1]}  {rstate[0]} 

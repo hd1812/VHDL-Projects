@@ -1,0 +1,234 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\vhdl_ex1
+T_opt
+VY=hjgz;ZHQP;BoDFWgZ@]0
+04 18 5 work draw_any_octant_tb behav 1
+=1-18a905c3e5e9-54d3b04a-1b4-350
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1b;51
+T_opt1
+V_fOMEMLz6cDC:zNd;^65A3
+04 3 9 work inv inv_block 1
+=1-18a905c3f052-54ce21a5-2c7-b2c
+R1
+n@_opt1
+R2
+Z3 dH:\vhdl_ex1
+T_opt2
+VF_<QPC9WdB7HV9>nzoR1Y0
+04 4 10 work swap swap_block 1
+=1-18a905c3f052-54ce2235-e5-1b2c
+R1
+n@_opt2
+R2
+R3
+Edraw_any_octant
+Z4 w1423158172
+Z5 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z8 dH:\vhdl_ex2
+Z9 8H:/vhdl_ex2/draw_any_octant.vhd
+Z10 FH:/vhdl_ex2/draw_any_octant.vhd
+l0
+L99
+VBM5LazcGFQjUX;oQgQiLI0
+Z11 OL;C;10.1b;51
+31
+Z12 !s108 1423159351.059000
+Z13 !s90 -reportprogress|300|-work|work|-93|-explicit|-check_synthesis|-vopt|H:/vhdl_ex2/draw_any_octant.vhd|
+Z14 !s107 H:/vhdl_ex2/draw_any_octant.vhd|
+Z15 o-work work -93 -explicit -check_synthesis
+Z16 tExplicit 1
+!s100 _l6U8a8bdjX^zR>iLBQ;43
+!i10b 1
+Acomb
+Z17 DEx4 work 11 draw_octant 0 22 bW1[O3ao1d;F:RVAHh_BW2
+R5
+R6
+R7
+Z18 DEx4 work 15 draw_any_octant 0 22 BM5LazcGFQjUX;oQgQiLI0
+l124
+L116
+VQ7A4VhAaM0E^___H2N]l>2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 gXTMh=CL<K=mjN^Ub@S6`3
+!i10b 1
+Edraw_any_octant_tb
+Z19 w1423076504
+Z20 DPx4 work 12 ex4_data_pak 0 22 :5aLj1G1hUW[kW0]k]5XF3
+R5
+R6
+R7
+R8
+Z21 8H:/vhdl_ex2/draw_any_octant_tb_generic.vhd
+Z22 FH:/vhdl_ex2/draw_any_octant_tb_generic.vhd
+l0
+L7
+VXPI@ZR2Qh9h132S<?dL3[3
+R11
+32
+Z23 !s108 1423159351.550000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|H:/vhdl_ex2/draw_any_octant_tb_generic.vhd|
+Z25 !s107 H:/vhdl_ex2/draw_any_octant_tb_generic.vhd|
+Z26 o-work work -2002 -explicit
+R16
+!s100 29SIo==ZBgl[;FHEXWBeL3
+!i10b 1
+Abehav
+R18
+R20
+R5
+R6
+R7
+DEx4 work 18 draw_any_octant_tb 0 22 XPI@ZR2Qh9h132S<?dL3[3
+l35
+L10
+VWG<PHNAMF6[67JhB1_LSA3
+R11
+32
+R23
+R24
+R25
+R26
+R16
+!s100 aOiH^T>onDiVc>TPE1W6a3
+!i10b 1
+Edraw_octant
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+l0
+L6
+VbW1[O3ao1d;F:RVAHh_BW2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 Y[P=mQ;aPKH2l4m[^H9?b1
+!i10b 1
+Acomb
+R5
+R6
+R7
+R17
+l28
+L16
+V3?z8CgGOA[K5X[j2<bTDb3
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 Pi_fAOOgEJe^aWV3LNTlP2
+!i10b 1
+Pex4_data_pak
+w1315238544
+R8
+8H:/vhdl_ex2/ex4_data_pak.vhd
+FH:/vhdl_ex2/ex4_data_pak.vhd
+l0
+L2
+VPeKSl1I8aM2M?QR^QoXEa3
+R11
+32
+R26
+R16
+!s100 LW:J<FG`^J6F;_TI:S[183
+!i10b 1
+!s108 1423159351.904000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|H:/vhdl_ex2/ex4_data_pak.vhd|
+!s107 H:/vhdl_ex2/ex4_data_pak.vhd|
+Einv
+Z27 w1423044365
+R5
+R6
+R7
+R8
+R9
+R10
+l0
+L134
+VTM2zJKc82z0CV8a1BRVGm2
+R11
+31
+Z28 !s108 1423070808.297000
+R13
+R14
+R15
+R16
+!s100 mXcQ[`JE`22z2_@<g09Vc3
+!i10b 1
+Ainv_block
+R5
+R6
+R7
+DEx4 work 3 inv 0 22 TM2zJKc82z0CV8a1BRVGm2
+l147
+L146
+V_;aOGX5D1ICg:dC77TIl;0
+R11
+31
+R28
+R13
+R14
+R15
+R16
+!s100 Q?na`eH`7c1nQPEFG^1bz0
+!i10b 1
+Eswap
+R27
+R5
+R6
+R7
+R8
+R9
+R10
+l0
+L101
+V>R>VdVzMLf6fJaeHT3Nn_3
+R11
+31
+R28
+R13
+R14
+R15
+R16
+!s100 VGo[3cn>^h5iS76[aMZP00
+!i10b 1
+Aswap_block
+R5
+R6
+R7
+DEx4 work 4 swap 0 22 >R>VdVzMLf6fJaeHT3Nn_3
+l113
+L112
+VTg=L;664]_RzUf`oP^U2j1
+R11
+31
+R28
+R13
+R14
+R15
+R16
+!s100 GMlZgX4KaQQ`8`jlH4[kO0
+!i10b 1

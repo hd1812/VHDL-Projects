@@ -1,0 +1,95 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\MentorGraphics\examples
+T_opt
+V:c>focM;DPPXHD5Blod1:3
+04 9 9 work f3_alu_tb testbench 1
+=1-18a905c3f052-54bd75b3-313-c88
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1b;51
+Z3 dC:\Program Files\MentorGraphics\examples
+T_opt1
+V_E7dDSIZOc9OXZ^Vc>]ni3
+04 6 3 work f3_alu rtl 1
+=1-18a905c3f052-54bd774d-2e-19c0
+R1
+n@_opt1
+R2
+Ef3_alu
+Z4 w1421702379
+Z5 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z8 dH:\vhdl_ex0
+Z9 8H:/vhdl_ex0/f3_alu_sim_errors.vhd
+Z10 FH:/vhdl_ex0/f3_alu_sim_errors.vhd
+l0
+L6
+V35PJEb<22R5R`7AjA@ZJI2
+Z11 OL;C;10.1b;51
+31
+Z12 !s108 1421702527.639000
+Z13 !s90 -reportprogress|300|-work|work|-93|-explicit|-vopt|H:/vhdl_ex0/f3_alu_sim_errors.vhd|
+Z14 !s107 H:/vhdl_ex0/f3_alu_sim_errors.vhd|
+Z15 o-work work -93 -explicit
+Z16 tExplicit 1
+!s100 S7mbVD5ZT6DH<S6`Gfzz?0
+!i10b 1
+Artl
+R5
+R6
+R7
+DEx4 work 6 f3_alu 0 22 35PJEb<22R5R`7AjA@ZJI2
+l22
+L15
+V=dd59@cbkQkLK?::=_4EF2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 8B_[kG89bKcMFTBNlc@n00
+!i10b 1
+Ef3_alu_tb
+Z17 w1372156750
+R5
+R6
+R7
+R8
+Z18 8H:/vhdl_ex0/f3_alu_tb.vhd
+Z19 FH:/vhdl_ex0/f3_alu_tb.vhd
+l0
+L7
+VMnN>]7WnGDk20_cCU>?Qn1
+R11
+31
+Z20 !s108 1421702527.006000
+Z21 !s90 -reportprogress|300|-work|work|-93|-explicit|-vopt|H:/vhdl_ex0/f3_alu_tb.vhd|
+Z22 !s107 H:/vhdl_ex0/f3_alu_tb.vhd|
+R15
+R16
+!s100 ccaDQj<IPPe`CJR]E2<Xg1
+!i10b 1
+Atestbench
+DEx4 work 6 f3_alu 0 22 @8_nL>@T32>4bcUF@z0IS0
+R5
+R6
+R7
+DEx4 work 9 f3_alu_tb 0 22 MnN>]7WnGDk20_cCU>?Qn1
+l26
+L12
+V14GZo1QfVce4NMU`b6G151
+R11
+31
+R20
+R21
+R22
+R15
+R16
+!s100 zLOUh6d4gZMOez@=2h3V:0
+!i10b 1

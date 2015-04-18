@@ -1,0 +1,244 @@
+LIBRARY ieee;
+USE IEEE.std_logic_1164.ALL;
+USE IEEE.numeric_std.ALL;
+USE work.project_pack.ALL;
+
+ENTITY rcb IS
+	GENERIC(vsize : INTEGER := 6);
+	PORT(
+		clk          : IN  std_logic;
+		reset        : IN  std_logic;
+
+		-- db connections
+		x            : IN std_logic_vector(VSIZE-1 DOWNTO 0);
+		y            : IN std_logic_vector(VSIZE-1 DOWNTO 0);
+		rcbcmd       : IN std_logic_vector(2 DOWNTO 0);
+		startcmd     : IN std_logic;
+		dbb_delaycmd : OUT STD_LOGIC;
+		dbb_rcbclear : OUT STD_LOGIC;
+
+		-- vram connections
+		vdout        : IN  STD_LOGIC_VECTOR(15 DOWNTO 0);
+		vdin         : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+		vwrite       : OUT STD_LOGIC;
+		vaddr        : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+
+		-- vdp connection
+		rcb_finish   : OUT STD_LOGIC
+	);
+END rcb;
+
+ARCHITECTURE rtl1 OF rcb IS
+--pix_word_cache
+        SIGNAL pw, wen_all 				:  std_logic;
+        SIGNAL pixnum           		:  std_logic_vector(3 DOWNTO 0);
+        SIGNAL pixopin          		:  pixop_t;
+        SIGNAL store            		:  store_t;
+        SIGNAL is_same          		:  std_logic;	
+        
+        SIGNAL opout,opram            	:	pixop_t;
+  		SIGNAL rdout_par                :	store_t;
+  		CONSTANT all_same               :	store_t :=(OTHERS=>psame);
+  		
+--ram_fsm
+        SIGNAL start  					:	std_logic;
+        SIGNAL addr, data				:  	std_logic_vector;--Vrdin and Vraddr
+		SIGNAL delay					: 	std_logic;
+		SIGNAL addr_del,data_del		: 	std_logic_vector;	
+		
+		TYPE   state_t IS (m3, m2, m1, mx);
+		SIGNAL state, nstate : state_t;
+		
+--split
+		SIGNAL xin,yin 					:	 std_logic_vector(VSIZE-1 DOWNTO 0);
+		SIGNAL word_num_new				:  	 std_logic_vector(7 DOWNTO 0);
+		
+--word_reg
+		SIGNAL word_num_old				:  	 std_logic_vector(7 DOWNTO 0);
+	
+--equals
+		SIGNAL same_word				:	 std_logic;	
+
+--mux	
+
+
+--clear
+		SIGNAL clrx_reg,clry_reg		:	 std_logic_vector(VSIZE-1 DOWNTO 0);
+		SIGNAL clrxy_new_reg,clrxy_old_reg		:	 std_logic_vector(2*VSIZE-1 DOWNTO 0);
+		SIGNAL delaycmd					:   	std_logic;
+BEGIN
+	
+	
+	
+	
+	
+--pix_word_cache: 
+
+--module named change
+change: PROCESS(pixopin,opram,pw,wen_all)
+BEGIN
+        opout<=pixopin;
+        IF pixopin=pinvert OR pixopin = psame THEN
+                IF wen_all='0' THEN
+                        IF pixopin=psame THEN
+                        opout<=opram;
+                        ELSIF  opram=pblack THEN
+                        opout<=pwhite;
+                        ELSIF  opram=pwhite THEN
+                        opout<=pblack;
+                        ELSIF  opram=pinvert THEN
+                        opout<=psame;
+                        END IF;
+                        ELSIF pw='0' THEN
+                        opout<=psame;
+                END IF;
+        END IF;
+END PROCESS change;
+
+--ram implementation
+store_ram: PROCESS
+BEGIN
+        WAIT UNTIL clk'EVENT AND clk='1';
+        IF reset='1'THEN
+        rdout_par<=(OTHERS=>psame);
+        ELSIF wen_all='1'AND  pw='1' THEN
+        rdout_par<=(OTHERS=>psame);
+        rdout_par(to_integer(unsigned(pixnum)))<=opout;
+        ELSIF wen_all='1'THEN
+        rdout_par<=(OTHERS=>psame);
+        ELSIF pw='1' THEN
+                rdout_par(to_integer(unsigned(pixnum)))<=opout;
+                IF opout=psame THEN
+                END IF;
+        END IF;
+        
+END PROCESS store_ram;
+
+--combinational logic for is_same, opram and store
+same: PROCESS(rdout_par)
+BEGIN
+        is_same<='0';
+        IF rdout_par = all_same THEN
+        is_same<='1';
+END IF;
+END PROCESS same;
+opram<=rdout_par(to_integer(unsigned(pixnum)));
+store<=rdout_par;
+
+
+--ram_fsm:
+
+FSM: PROCESS(state, start)
+	BEGIN
+		nstate<=state;
+		delay<='0';
+		vwrite<='0';	
+		CASE state IS
+		WHEN mx=> 
+			IF start='1' THEN 
+				nstate<=m1; 
+			END IF;
+		WHEN m1=> 
+			nstate<=m2;
+			IF start='1' THEN 
+				delay<='1'; 
+			END IF;
+		WHEN m2=> 
+			nstate<=m3;
+			IF start='1' THEN 
+				delay<='1'; 
+			END IF;
+		WHEN m3=>
+			vwrite<='1'; 
+			IF start='1' THEN 
+				nstate<=m1; 
+			ELSE
+				nstate<=mx;
+			END IF;		
+		END CASE;
+	
+END PROCESS FSM;
+
+--Positively triggered process to change state and reset
+clk_pos:	PROCESS
+BEGIN
+	WAIT UNTIL clk'EVENT and CLK='1';
+	state<=nstate;
+	IF reset='1' THEN
+		state<=mx;
+	END IF;
+END PROCESS clk_pos;
+
+--Negatively triggered process to pass address and data
+clk_neg:	PROCESS
+BEGIN
+	WAIT UNTIL clk'EVENT and CLK='0';
+	addr_del<=addr;
+	data_del<=data;
+END PROCESS clk_neg;
+
+	
+split: BLOCK
+BEGIN
+	word_num_new(3 DOWNTO 0)<=xin(5 DOWNTO 2);
+	word_num_new(7 DOWNTO 4)<=yin(5 DOWNTO 2);
+	pixnum(1 DOWNTO 0)<=xin(1 DOWNTO 0);
+	pixnum(3 DOWNTO 2)<=yin(1 DOWNTO 0);
+END BLOCK split;	
+
+
+word_reg: PROCESS
+BEGIN
+	WAIT UNTIL clk'EVENT and CLK='1'; --positive clock triggered
+	word_num_old<=word_num_new;
+END PROCESS word_reg;	
+
+
+equals: PROCESS(word_num_old,word_num_new)
+BEGIN
+	same_word<='1';
+	IF word_num_old /= word_num_new THEN
+		same_word<='0';
+	END IF;
+END PROCESS equals;	
+	
+clear: PROCESS
+BEGIN
+	WAIT UNTIL clk'EVENT and CLK='1'; --positive clock triggered
+	clrx_reg<=clrx_reg;
+	clry_reg<=clry_reg;
+	
+	--swap to right orientation
+	IF clrxy_new_reg(2*VSIZE-1 DOWNTO VSIZE)<clrxy_old_reg(2*VSIZE-1 DOWNTO VSIZE) AND clrxy_new_reg(VSIZE-1 DOWNTO VSIZE) < clrxy_old_reg(VSIZE-1 DOWNTO VSIZE) THEN
+		clrxy_old_reg<=clrxy_new_reg;
+		clrxy_new_reg<=clrxy_old_reg;
+	END IF;
+	
+	IF delay='0' THEN
+	
+	
+
+	
+	
+	END IF;
+	
+	IF delaycmd='0' THEN
+		clrxy_old_reg<=clrxy_new_reg;
+	END IF;
+END PROCESS clear;
+clrxy_new_reg(2*VSIZE-1 DOWNTO VSIZE)<=x;
+clrxy_new_reg(VSIZE-1 DOWNTO 0)<=y;
+
+mux: PROCESS(rcbcmd, clrx_reg, clry_reg, x, y)
+BEGIN
+	xin<=x;
+	yin<=y;
+	IF rcbcmd(2)='1' OR rcbcmd="000" THEN
+		xin<=clrx_reg;
+		yin<=clry_reg;
+	END IF;
+END PROCESS mux;
+
+
+	
+END rtl1;      

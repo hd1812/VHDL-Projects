@@ -1,0 +1,50 @@
+H:/vhdl_ex4/ex4_data_pak_rand1000.vhd {1 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex4/ex4_data_pak_rand1000.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pix_cache_pak
+-- Loading package pix_tb_pak
+-- Compiling package ex4_data_pak
+
+} {} {}} H:/vhdl_ex4/pix_cache_pak.vhd {1 {vcom -work work -93 -explicit -check_synthesis -vopt H:/vhdl_ex4/pix_cache_pak.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package pix_cache_pak
+
+} {} {}} H:/vhdl_ex4/pix_word_cache.vhd {1 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex4/pix_word_cache.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pix_cache_pak
+-- Loading package NUMERIC_STD
+-- Compiling entity pix_word_cache
+-- Compiling architecture behav of pix_word_cache
+
+} {} {}} H:/vhdl_ex4/pix_word_cache_tb.vhd {1 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex4/pix_word_cache_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pix_cache_pak
+-- Loading package pix_tb_pak
+-- Loading package ex4_data_pak
+-- Compiling entity pix_word_cache_tb
+-- Compiling architecture behav of pix_word_cache_tb
+-- Loading entity pix_word_cache
+
+} {} {}} H:/vhdl_ex4/pix_tb_pak.vhd {1 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex4/pix_tb_pak.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pix_cache_pak
+-- Compiling package pix_tb_pak
+-- Compiling package body pix_tb_pak
+-- Loading package pix_tb_pak
+
+} {} {}}

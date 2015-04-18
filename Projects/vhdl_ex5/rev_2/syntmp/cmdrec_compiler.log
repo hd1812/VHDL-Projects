@@ -1,0 +1,12 @@
+C:\EEE\Synopsys\fpga_I-2013.09-SP1\bin64\c_vhdl.exe  -osyn  H:\vhdl_ex5\rev_2\synwork\proj_1_comp.srs  -top  vdp  -prodtype  synplify_premier  -dw  -verification_mode 0 -infer_seqShift -primux -fixsmult -dspmac  -nram -divnmod -fast_synthesis 0  -encrypt  -pro  -dmgen  H:\vhdl_ex5\rev_2\dm  -lite   -proto -ui -fid2 -ram -sharing on       -ll 2000 -autosm -ignore_undefined_lib  -lib work H:\vdp\config_pack.vhd -lib work H:\vdp\db.vhd -lib work H:\vdp\project_pack.vhd -lib work H:\vdp\rcb.vhd -lib work H:\vdp\utility_pack.vhd -lib work H:\vdp\vdp.vhd -loga  H:\vhdl_ex5\rev_2\proj_1.srr 
+rc:0 success:1
+H:\vhdl_ex5\rev_2\synwork\proj_1_comp.srs|o|1426510617|22514
+H:\vdp\config_pack.vhd|i|1393700766|1673
+H:\vdp\db.vhd|i|1426268062|12067
+H:\vdp\project_pack.vhd|i|1426182962|2144
+H:\vdp\rcb.vhd|i|1426510507|11592
+H:\vdp\utility_pack.vhd|i|1378801818|11624
+H:\vdp\vdp.vhd|i|1426508593|1765
+H:\vhdl_ex5\rev_2\proj_1.srr|o|1426510617|5474
+C:\EEE\Synopsys\fpga_I-2013.09-SP1\bin64\c_vhdl.exe|i|1385356906|5461504
+C:\EEE\Synopsys\fpga_I-2013.09-SP1\bin\c_vhdl.exe|i|1385356690|1980928

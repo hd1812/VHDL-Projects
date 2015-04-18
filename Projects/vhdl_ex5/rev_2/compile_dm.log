@@ -1,0 +1,1138 @@
+$ Start of Compile
+#Mon Mar 16 12:14:48 2015
+
+Synopsys VHDL Compiler, version comp201309rcp1, Build 042R, built Nov 24 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"H:\vdp\vdp.vhd":11:7:11:9|Top entity is set to vdp.
+Unable to open file H:\vhdl_ex5\rev_2\synwork\proj_1_comp.fdeporig to write the file dependencies
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 16 12:14:49 2015
+
+###########################################################]
+$ Start of Compile
+#Mon Mar 16 12:20:41 2015
+
+Synopsys VHDL Compiler, version comp201309rcp1, Build 042R, built Nov 24 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"H:\vdp\vdp.vhd":11:7:11:9|Top entity is set to vdp.
+@W: CD623 :"H:\vdp\utility_pack.vhd":357:19:357:23|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":30:19:30:26|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":31:19:31:32|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":46:19:46:25|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":47:19:47:24|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":48:19:48:25|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":49:19:49:26|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":118:17:118:23|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":118:26:118:32|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":119:17:119:25|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":149:19:149:23|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":150:19:150:23|Shared Variables in packages are not recommended.
+VHDL syntax check successful!
+@E: CD371 :"H:\vdp\vdp_pack.vhd":23:28:23:58|No matching overload for "*"
+@E: CD371 :"H:\vdp\vdp_pack.vhd":23:28:23:58|No matching overload for "*"
+@E: CD676 :"H:\vdp\vdp_pack.vhd":23:28:23:58|Can't implement expression (no function signature?)
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 16 12:20:42 2015
+
+###########################################################]
+$ Start of Compile
+#Mon Mar 16 12:21:05 2015
+
+$ Start of Compile
+#Mon Mar 16 12:22:09 2015
+
+Synopsys VHDL Compiler, version comp201309rcp1, Build 042R, built Nov 24 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"H:\vdp\vdp.vhd":11:7:11:9|Top entity is set to vdp.
+@W: CD623 :"H:\vdp\utility_pack.vhd":357:19:357:23|Shared Variables in packages are not recommended.
+VHDL syntax check successful!
+@N: CD630 :"H:\vdp\vdp.vhd":11:7:11:9|Synthesizing work.vdp.rtl 
+@E: CD147 :"H:\vdp\vdp.vhd":23:2:23:6|Variable vaddr should have a constrained type
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 16 12:22:09 2015
+
+###########################################################]
+$ Start of Compile
+#Mon Mar 16 12:23:20 2015
+
+Synopsys VHDL Compiler, version comp201309rcp1, Build 042R, built Nov 24 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"H:\vdp\vdp.vhd":11:7:11:9|Top entity is set to vdp.
+@W: CD623 :"H:\vdp\utility_pack.vhd":357:19:357:23|Shared Variables in packages are not recommended.
+VHDL syntax check successful!
+@N: CD630 :"H:\vdp\vdp.vhd":11:7:11:9|Synthesizing work.vdp.rtl 
+@N: CD630 :"H:\vdp\rcb.vhd":6:7:6:9|Synthesizing work.rcb.rtl1 
+@N: CD233 :"H:\vdp\rcb.vhd":41:17:41:18|Using sequential encoding for type state_t
+@N: CD233 :"H:\vdp\rcb.vhd":56:18:56:19|Using sequential encoding for type rstate_t
+@W: CD638 :"H:\vdp\rcb.vhd":33:15:33:16|Signal pw is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":33:19:33:25|Signal wen_all is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":33:28:33:29|Signal ok is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":35:15:35:21|Signal pixopin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":36:15:36:19|Signal opout is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":37:11:37:19|Signal rdout_par is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":39:15:39:19|Signal start is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":40:9:40:13|Signal delay is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":42:9:42:13|Signal state is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":42:16:42:21|Signal nstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":44:9:44:11|Signal xin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":44:13:44:15|Signal yin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":47:9:47:20|Signal word_num_old is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":49:9:49:17|Signal same_word is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":51:9:51:16|Signal clrx_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":51:18:51:25|Signal clry_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":52:23:52:35|Signal clrxy_old_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":54:9:54:17|Signal scan_done is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":57:9:57:14|Signal rstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":57:16:57:22|Signal nrstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":58:9:58:13|Signal timer is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":61:9:61:10|Signal p1 is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":61:12:61:13|Signal p2 is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":62:9:62:18|Signal delaycmd_i is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":64:9:64:21|Signal draw_or_clear is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":65:9:65:25|Signal draw_or_clear_old is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":66:9:66:12|Signal move is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":68:9:68:16|Signal is_clear is undriven 
+Post processing for work.rcb.rtl1
+@W: CL240 :"H:\vdp\rcb.vhd":62:9:62:18|delaycmd_i is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 0 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 1 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 2 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 3 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 4 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 5 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 0 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 1 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 2 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 3 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 4 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 5 of signal xin is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\rcb.vhd":40:9:40:13|delay is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\rcb.vhd":27:2:27:11|rcb_finish is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 0 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 1 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 2 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 3 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 4 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 5 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 6 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 7 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\rcb.vhd":23:2:23:7|vwrite is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 0 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 1 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 2 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 3 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 4 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 5 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 6 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 7 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 8 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 9 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 10 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 11 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 12 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 13 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 14 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 15 of signal vdin is floating -- simulation mismatch possible.
+@N: CD630 :"H:\vdp\db.vhd":204:7:204:8|Synthesizing work.db.rtl 
+@N: CD231 :"H:\vdp\db.vhd":231:17:231:18|Using onehot encoding for type state_t (idle="1000000000")
+@W: CD638 :"H:\vdp\db.vhd":227:9:227:11|Signal cmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":227:14:227:16|Signal pen is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:9:228:14|Signal xclear is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:16:228:21|Signal yclear is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:23:228:27|Signal xhold is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:29:228:33|Signal yhold is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:35:228:38|Signal xnew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:40:228:43|Signal ynew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:9:229:12|Signal negx is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:14:229:16|Signal sel is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:19:229:22|Signal negy is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:25:229:28|Signal swap is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:31:229:35|Signal xbias is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:38:229:41|Signal draw is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:50:229:56|Signal disable is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:59:229:62|Signal busy is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:65:229:70|Signal resetx is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.startcmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.rcb_cmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.y is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.x is undriven 
+@W: CD638 :"H:\vdp\db.vhd":232:9:232:13|Signal state is undriven 
+@W: CD638 :"H:\vdp\db.vhd":232:16:232:21|Signal nstate is undriven 
+@N: CD630 :"H:\vdp\db.vhd":149:7:149:21|Synthesizing work.draw_any_octant.comb 
+@W: CD638 :"H:\vdp\db.vhd":167:9:167:15|Signal swapxy1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":167:18:167:22|Signal negx1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":167:25:167:29|Signal negy1 is undriven 
+@N: CD630 :"H:\vdp\db.vhd":6:7:6:17|Synthesizing work.draw_octant.comb 
+@W: CD638 :"H:\vdp\db.vhd":18:9:18:13|Signal done1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":19:9:19:10|Signal x1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":19:13:19:14|Signal y1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:9:20:13|Signal xincr is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:16:20:20|Signal yincr is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:23:20:26|Signal xnew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:29:20:32|Signal ynew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":21:9:21:34|Signal error is undriven 
+@W: CD638 :"H:\vdp\db.vhd":22:9:22:12|Signal err1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":22:15:22:18|Signal err2 is undriven 
+Post processing for work.draw_octant.comb
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 0 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 1 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 2 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 3 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 4 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 5 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 0 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 1 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 2 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 3 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 4 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 5 of signal x1 is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\db.vhd":18:9:18:13|done1 is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"H:\vdp\db.vhd":117:7:117:9|Synthesizing work.inv.i1 
+Post processing for work.inv.i1
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 0 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 1 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 2 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 3 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 4 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 5 of signal b is floating -- simulation mismatch possible.
+@N: CD630 :"H:\vdp\db.vhd":87:7:87:10|Synthesizing work.swap.s1 
+Post processing for work.swap.s1
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 0 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 1 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 2 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 3 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 4 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 5 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 0 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 1 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 2 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 3 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 4 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 5 of signal xout is floating -- simulation mismatch possible.
+Post processing for work.draw_any_octant.comb
+@W: CL240 :"H:\vdp\db.vhd":167:25:167:29|negy1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":167:18:167:22|negx1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":167:9:167:15|swapxy1 is not assigned a value (floating) -- simulation mismatch possible. 
+Post processing for work.db.rtl
+@W: CL240 :"H:\vdp\db.vhd":230:9:230:11|dbb.startcmd is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 3 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 4 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 5 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 3 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 4 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 5 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\db.vhd":229:65:229:70|resetx is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:59:229:62|busy is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:50:229:56|disable is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:38:229:41|draw is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:31:229:35|xbias is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:25:229:28|swap is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:19:229:22|negy is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:9:229:12|negx is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 0 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 1 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 2 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 3 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 4 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 5 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 0 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 1 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 2 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 3 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 4 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 5 of signal xnew is floating -- simulation mismatch possible.
+Post processing for work.vdp.rtl
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 16 12:23:21 2015
+
+###########################################################]
+$ Start of Compile
+#Mon Mar 16 12:27:17 2015
+
+Synopsys VHDL Compiler, version comp201309rcp1, Build 042R, built Nov 24 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"H:\vdp\vdp.vhd":11:7:11:9|Top entity is set to vdp.
+File C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std_textio.vhd changed - recompiling
+File H:\vdp\utility_pack.vhd changed - recompiling
+File H:\vdp\project_pack.vhd changed - recompiling
+File H:\vdp\db.vhd changed - recompiling
+File H:\vdp\rcb.vhd changed - recompiling
+File H:\vdp\vdp.vhd changed - recompiling
+@W: CD623 :"H:\vdp\utility_pack.vhd":357:19:357:23|Shared Variables in packages are not recommended.
+VHDL syntax check successful!
+@N: CD630 :"H:\vdp\vdp.vhd":11:7:11:9|Synthesizing work.vdp.rtl 
+@N: CD630 :"H:\vdp\rcb.vhd":6:7:6:9|Synthesizing work.rcb.rtl1 
+@N: CD233 :"H:\vdp\rcb.vhd":41:17:41:18|Using sequential encoding for type state_t
+@N: CD233 :"H:\vdp\rcb.vhd":56:18:56:19|Using sequential encoding for type rstate_t
+@W: CD638 :"H:\vdp\rcb.vhd":33:15:33:16|Signal pw is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":33:19:33:25|Signal wen_all is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":35:15:35:21|Signal pixopin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":36:15:36:19|Signal opout is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":37:11:37:19|Signal rdout_par is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":39:15:39:19|Signal start is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":40:9:40:13|Signal delay is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":42:9:42:13|Signal state is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":42:16:42:21|Signal nstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":44:9:44:11|Signal xin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":44:13:44:15|Signal yin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":47:9:47:20|Signal word_num_old is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":49:9:49:17|Signal same_word is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":51:9:51:16|Signal clrx_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":51:18:51:25|Signal clry_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":52:23:52:35|Signal clrxy_old_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":54:9:54:17|Signal scan_done is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":57:9:57:14|Signal rstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":57:16:57:22|Signal nrstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":58:9:58:13|Signal timer is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":61:9:61:10|Signal p1 is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":61:12:61:13|Signal p2 is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":62:9:62:18|Signal delaycmd_i is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":64:9:64:21|Signal draw_or_clear is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":65:9:65:25|Signal draw_or_clear_old is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":66:9:66:12|Signal move is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":68:9:68:16|Signal is_clear is undriven 
+Post processing for work.rcb.rtl1
+@W: CL240 :"H:\vdp\rcb.vhd":62:9:62:18|delaycmd_i is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 0 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 1 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 2 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 3 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 4 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 5 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 0 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 1 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 2 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 3 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 4 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 5 of signal xin is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\rcb.vhd":40:9:40:13|delay is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\rcb.vhd":27:2:27:11|rcb_finish is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 0 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 1 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 2 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 3 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 4 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 5 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 6 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 7 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\rcb.vhd":23:2:23:7|vwrite is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 0 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 1 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 2 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 3 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 4 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 5 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 6 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 7 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 8 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 9 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 10 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 11 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 12 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 13 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 14 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 15 of signal vdin is floating -- simulation mismatch possible.
+@N: CD630 :"H:\vdp\db.vhd":204:7:204:8|Synthesizing work.db.rtl 
+@N: CD231 :"H:\vdp\db.vhd":231:17:231:18|Using onehot encoding for type state_t (idle="1000000000")
+@W: CD638 :"H:\vdp\db.vhd":227:9:227:11|Signal cmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":227:14:227:16|Signal pen is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:9:228:14|Signal xclear is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:16:228:21|Signal yclear is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:23:228:27|Signal xhold is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:29:228:33|Signal yhold is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:35:228:38|Signal xnew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:40:228:43|Signal ynew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:9:229:12|Signal negx is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:14:229:16|Signal sel is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:19:229:22|Signal negy is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:25:229:28|Signal swap is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:31:229:35|Signal xbias is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:38:229:41|Signal draw is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:50:229:56|Signal disable is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:59:229:62|Signal busy is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:65:229:70|Signal resetx is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.startcmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.rcb_cmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.y is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.x is undriven 
+@W: CD638 :"H:\vdp\db.vhd":232:9:232:13|Signal state is undriven 
+@W: CD638 :"H:\vdp\db.vhd":232:16:232:21|Signal nstate is undriven 
+@N: CD630 :"H:\vdp\db.vhd":149:7:149:21|Synthesizing work.draw_any_octant.comb 
+@W: CD638 :"H:\vdp\db.vhd":167:9:167:15|Signal swapxy1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":167:18:167:22|Signal negx1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":167:25:167:29|Signal negy1 is undriven 
+@N: CD630 :"H:\vdp\db.vhd":6:7:6:17|Synthesizing work.draw_octant.comb 
+@W: CD638 :"H:\vdp\db.vhd":18:9:18:13|Signal done1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":19:9:19:10|Signal x1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":19:13:19:14|Signal y1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:9:20:13|Signal xincr is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:16:20:20|Signal yincr is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:23:20:26|Signal xnew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:29:20:32|Signal ynew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":21:9:21:34|Signal error is undriven 
+@W: CD638 :"H:\vdp\db.vhd":22:9:22:12|Signal err1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":22:15:22:18|Signal err2 is undriven 
+Post processing for work.draw_octant.comb
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 0 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 1 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 2 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 3 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 4 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 5 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 0 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 1 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 2 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 3 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 4 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 5 of signal x1 is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\db.vhd":18:9:18:13|done1 is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"H:\vdp\db.vhd":117:7:117:9|Synthesizing work.inv.i1 
+Post processing for work.inv.i1
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 0 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 1 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 2 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 3 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 4 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 5 of signal b is floating -- simulation mismatch possible.
+@N: CD630 :"H:\vdp\db.vhd":87:7:87:10|Synthesizing work.swap.s1 
+Post processing for work.swap.s1
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 0 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 1 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 2 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 3 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 4 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 5 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 0 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 1 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 2 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 3 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 4 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 5 of signal xout is floating -- simulation mismatch possible.
+Post processing for work.draw_any_octant.comb
+@W: CL240 :"H:\vdp\db.vhd":167:25:167:29|negy1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":167:18:167:22|negx1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":167:9:167:15|swapxy1 is not assigned a value (floating) -- simulation mismatch possible. 
+Post processing for work.db.rtl
+@W: CL240 :"H:\vdp\db.vhd":230:9:230:11|dbb.startcmd is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 3 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 4 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 5 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 3 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 4 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 5 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\db.vhd":229:65:229:70|resetx is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:59:229:62|busy is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:50:229:56|disable is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:38:229:41|draw is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:31:229:35|xbias is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:25:229:28|swap is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:19:229:22|negy is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:9:229:12|negx is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 0 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 1 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 2 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 3 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 4 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 5 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 0 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 1 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 2 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 3 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 4 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 5 of signal xnew is floating -- simulation mismatch possible.
+Post processing for work.vdp.rtl
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 16 12:27:17 2015
+
+###########################################################]
+$ Start of Compile
+#Mon Mar 16 12:40:55 2015
+
+Synopsys VHDL Compiler, version comp201309rcp1, Build 042R, built Nov 24 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"H:\vdp\vdp.vhd":11:7:11:9|Top entity is set to vdp.
+File C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std_textio.vhd changed - recompiling
+File H:\vdp\utility_pack.vhd changed - recompiling
+File H:\vdp\project_pack.vhd changed - recompiling
+File H:\vdp\db.vhd changed - recompiling
+File H:\vdp\rcb.vhd changed - recompiling
+File H:\vdp\vdp.vhd changed - recompiling
+@W: CD623 :"H:\vdp\utility_pack.vhd":357:19:357:23|Shared Variables in packages are not recommended.
+VHDL syntax check successful!
+@N: CD630 :"H:\vdp\vdp.vhd":11:7:11:9|Synthesizing work.vdp.rtl 
+@N: CD630 :"H:\vdp\rcb.vhd":6:7:6:9|Synthesizing work.rcb.rtl1 
+@N: CD233 :"H:\vdp\rcb.vhd":41:17:41:18|Using sequential encoding for type state_t
+@N: CD233 :"H:\vdp\rcb.vhd":56:18:56:19|Using sequential encoding for type rstate_t
+@W: CD638 :"H:\vdp\rcb.vhd":33:15:33:16|Signal pw is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":33:19:33:25|Signal wen_all is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":35:15:35:21|Signal pixopin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":36:15:36:19|Signal opout is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":37:11:37:19|Signal rdout_par is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":39:15:39:19|Signal start is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":40:9:40:13|Signal delay is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":42:9:42:13|Signal state is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":42:16:42:21|Signal nstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":44:9:44:11|Signal xin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":44:13:44:15|Signal yin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":47:9:47:20|Signal word_num_old is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":49:9:49:17|Signal same_word is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":51:9:51:16|Signal clrx_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":51:18:51:25|Signal clry_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":52:23:52:35|Signal clrxy_old_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":54:9:54:17|Signal scan_done is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":57:9:57:14|Signal rstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":57:16:57:22|Signal nrstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":58:9:58:13|Signal timer is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":61:9:61:10|Signal p1 is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":61:12:61:13|Signal p2 is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":62:9:62:18|Signal delaycmd_i is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":64:9:64:21|Signal draw_or_clear is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":65:9:65:25|Signal draw_or_clear_old is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":66:9:66:12|Signal move is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":68:9:68:16|Signal is_clear is undriven 
+Post processing for work.rcb.rtl1
+@W: CL240 :"H:\vdp\rcb.vhd":62:9:62:18|delaycmd_i is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 0 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 1 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 2 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 3 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 4 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 5 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 0 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 1 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 2 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 3 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 4 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 5 of signal xin is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\rcb.vhd":40:9:40:13|delay is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\rcb.vhd":27:2:27:11|rcb_finish is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 0 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 1 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 2 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 3 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 4 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 5 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 6 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 7 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\rcb.vhd":23:2:23:7|vwrite is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 0 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 1 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 2 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 3 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 4 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 5 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 6 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 7 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 8 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 9 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 10 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 11 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 12 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 13 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 14 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 15 of signal vdin is floating -- simulation mismatch possible.
+@N: CD630 :"H:\vdp\db.vhd":204:7:204:8|Synthesizing work.db.rtl 
+@N: CD231 :"H:\vdp\db.vhd":231:17:231:18|Using onehot encoding for type state_t (idle="1000000000")
+@W: CD638 :"H:\vdp\db.vhd":227:9:227:11|Signal cmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":227:14:227:16|Signal pen is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:9:228:14|Signal xclear is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:16:228:21|Signal yclear is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:23:228:27|Signal xhold is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:29:228:33|Signal yhold is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:35:228:38|Signal xnew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:40:228:43|Signal ynew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:9:229:12|Signal negx is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:14:229:16|Signal sel is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:19:229:22|Signal negy is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:25:229:28|Signal swap is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:31:229:35|Signal xbias is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:38:229:41|Signal draw is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:50:229:56|Signal disable is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:59:229:62|Signal busy is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:65:229:70|Signal resetx is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.startcmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.rcb_cmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.y is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.x is undriven 
+@W: CD638 :"H:\vdp\db.vhd":232:9:232:13|Signal state is undriven 
+@W: CD638 :"H:\vdp\db.vhd":232:16:232:21|Signal nstate is undriven 
+@N: CD630 :"H:\vdp\db.vhd":149:7:149:21|Synthesizing work.draw_any_octant.comb 
+@W: CD638 :"H:\vdp\db.vhd":167:9:167:15|Signal swapxy1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":167:18:167:22|Signal negx1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":167:25:167:29|Signal negy1 is undriven 
+@N: CD630 :"H:\vdp\db.vhd":6:7:6:17|Synthesizing work.draw_octant.comb 
+@W: CD638 :"H:\vdp\db.vhd":18:9:18:13|Signal done1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":19:9:19:10|Signal x1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":19:13:19:14|Signal y1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:9:20:13|Signal xincr is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:16:20:20|Signal yincr is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:23:20:26|Signal xnew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:29:20:32|Signal ynew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":21:9:21:34|Signal error is undriven 
+@W: CD638 :"H:\vdp\db.vhd":22:9:22:12|Signal err1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":22:15:22:18|Signal err2 is undriven 
+Post processing for work.draw_octant.comb
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 0 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 1 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 2 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 3 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 4 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 5 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 0 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 1 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 2 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 3 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 4 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 5 of signal x1 is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\db.vhd":18:9:18:13|done1 is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"H:\vdp\db.vhd":117:7:117:9|Synthesizing work.inv.i1 
+Post processing for work.inv.i1
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 0 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 1 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 2 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 3 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 4 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 5 of signal b is floating -- simulation mismatch possible.
+@N: CD630 :"H:\vdp\db.vhd":87:7:87:10|Synthesizing work.swap.s1 
+Post processing for work.swap.s1
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 0 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 1 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 2 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 3 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 4 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 5 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 0 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 1 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 2 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 3 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 4 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 5 of signal xout is floating -- simulation mismatch possible.
+Post processing for work.draw_any_octant.comb
+@W: CL240 :"H:\vdp\db.vhd":167:25:167:29|negy1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":167:18:167:22|negx1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":167:9:167:15|swapxy1 is not assigned a value (floating) -- simulation mismatch possible. 
+Post processing for work.db.rtl
+@W: CL240 :"H:\vdp\db.vhd":230:9:230:11|dbb.startcmd is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 3 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 4 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 5 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 3 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 4 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 5 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\db.vhd":229:65:229:70|resetx is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:59:229:62|busy is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:50:229:56|disable is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:38:229:41|draw is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:31:229:35|xbias is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:25:229:28|swap is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:19:229:22|negy is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:9:229:12|negx is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 0 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 1 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 2 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 3 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 4 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 5 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 0 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 1 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 2 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 3 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 4 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 5 of signal xnew is floating -- simulation mismatch possible.
+Post processing for work.vdp.rtl
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 16 12:40:56 2015
+
+###########################################################]
+$ Start of Compile
+#Mon Mar 16 12:42:26 2015
+
+Synopsys VHDL Compiler, version comp201309rcp1, Build 042R, built Nov 24 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"H:\vdp\vdp.vhd":11:7:11:9|Top entity is set to vdp.
+File C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std_textio.vhd changed - recompiling
+File H:\vdp\utility_pack.vhd changed - recompiling
+File H:\vdp\project_pack.vhd changed - recompiling
+File H:\vdp\db.vhd changed - recompiling
+File H:\vdp\rcb.vhd changed - recompiling
+File H:\vdp\vdp.vhd changed - recompiling
+@W: CD623 :"H:\vdp\utility_pack.vhd":357:19:357:23|Shared Variables in packages are not recommended.
+VHDL syntax check successful!
+@N: CD630 :"H:\vdp\vdp.vhd":11:7:11:9|Synthesizing work.vdp.rtl 
+@N: CD630 :"H:\vdp\rcb.vhd":6:7:6:9|Synthesizing work.rcb.rtl1 
+@N: CD233 :"H:\vdp\rcb.vhd":41:17:41:18|Using sequential encoding for type state_t
+@N: CD233 :"H:\vdp\rcb.vhd":56:18:56:19|Using sequential encoding for type rstate_t
+@W: CD638 :"H:\vdp\rcb.vhd":33:15:33:16|Signal pw is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":33:19:33:25|Signal wen_all is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":35:15:35:21|Signal pixopin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":36:15:36:19|Signal opout is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":37:11:37:19|Signal rdout_par is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":39:15:39:19|Signal start is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":40:9:40:13|Signal delay is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":42:9:42:13|Signal state is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":42:16:42:21|Signal nstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":44:9:44:11|Signal xin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":44:13:44:15|Signal yin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":47:9:47:20|Signal word_num_old is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":49:9:49:17|Signal same_word is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":51:9:51:16|Signal clrx_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":51:18:51:25|Signal clry_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":52:23:52:35|Signal clrxy_old_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":54:9:54:17|Signal scan_done is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":57:9:57:14|Signal rstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":57:16:57:22|Signal nrstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":58:9:58:13|Signal timer is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":61:9:61:10|Signal p1 is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":61:12:61:13|Signal p2 is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":62:9:62:18|Signal delaycmd_i is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":64:9:64:21|Signal draw_or_clear is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":65:9:65:25|Signal draw_or_clear_old is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":66:9:66:12|Signal move is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":68:9:68:16|Signal is_clear is undriven 
+Post processing for work.rcb.rtl1
+@W: CL240 :"H:\vdp\rcb.vhd":62:9:62:18|delaycmd_i is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 0 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 1 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 2 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 3 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 4 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 5 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 0 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 1 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 2 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 3 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 4 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 5 of signal xin is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\rcb.vhd":40:9:40:13|delay is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\rcb.vhd":27:2:27:11|rcb_finish is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 0 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 1 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 2 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 3 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 4 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 5 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 6 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 7 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\rcb.vhd":23:2:23:7|vwrite is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 0 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 1 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 2 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 3 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 4 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 5 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 6 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 7 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 8 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 9 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 10 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 11 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 12 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 13 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 14 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 15 of signal vdin is floating -- simulation mismatch possible.
+@N: CD630 :"H:\vdp\db.vhd":204:7:204:8|Synthesizing work.db.rtl 
+@N: CD231 :"H:\vdp\db.vhd":231:17:231:18|Using onehot encoding for type state_t (idle="1000000000")
+@W: CD638 :"H:\vdp\db.vhd":227:9:227:11|Signal cmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":227:14:227:16|Signal pen is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:9:228:14|Signal xclear is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:16:228:21|Signal yclear is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:23:228:27|Signal xhold is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:29:228:33|Signal yhold is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:35:228:38|Signal xnew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:40:228:43|Signal ynew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:9:229:12|Signal negx is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:14:229:16|Signal sel is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:19:229:22|Signal negy is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:25:229:28|Signal swap is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:31:229:35|Signal xbias is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:38:229:41|Signal draw is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:50:229:56|Signal disable is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:59:229:62|Signal busy is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:65:229:70|Signal resetx is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.startcmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.rcb_cmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.y is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.x is undriven 
+@W: CD638 :"H:\vdp\db.vhd":232:9:232:13|Signal state is undriven 
+@W: CD638 :"H:\vdp\db.vhd":232:16:232:21|Signal nstate is undriven 
+@N: CD630 :"H:\vdp\db.vhd":149:7:149:21|Synthesizing work.draw_any_octant.comb 
+@W: CD638 :"H:\vdp\db.vhd":167:9:167:15|Signal swapxy1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":167:18:167:22|Signal negx1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":167:25:167:29|Signal negy1 is undriven 
+@N: CD630 :"H:\vdp\db.vhd":6:7:6:17|Synthesizing work.draw_octant.comb 
+@W: CD638 :"H:\vdp\db.vhd":18:9:18:13|Signal done1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":19:9:19:10|Signal x1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":19:13:19:14|Signal y1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:9:20:13|Signal xincr is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:16:20:20|Signal yincr is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:23:20:26|Signal xnew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:29:20:32|Signal ynew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":21:9:21:34|Signal error is undriven 
+@W: CD638 :"H:\vdp\db.vhd":22:9:22:12|Signal err1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":22:15:22:18|Signal err2 is undriven 
+Post processing for work.draw_octant.comb
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 0 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 1 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 2 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 3 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 4 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 5 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 0 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 1 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 2 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 3 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 4 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 5 of signal x1 is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\db.vhd":18:9:18:13|done1 is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"H:\vdp\db.vhd":117:7:117:9|Synthesizing work.inv.i1 
+Post processing for work.inv.i1
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 0 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 1 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 2 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 3 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 4 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 5 of signal b is floating -- simulation mismatch possible.
+@N: CD630 :"H:\vdp\db.vhd":87:7:87:10|Synthesizing work.swap.s1 
+Post processing for work.swap.s1
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 0 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 1 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 2 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 3 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 4 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 5 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 0 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 1 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 2 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 3 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 4 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 5 of signal xout is floating -- simulation mismatch possible.
+Post processing for work.draw_any_octant.comb
+@W: CL240 :"H:\vdp\db.vhd":167:25:167:29|negy1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":167:18:167:22|negx1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":167:9:167:15|swapxy1 is not assigned a value (floating) -- simulation mismatch possible. 
+Post processing for work.db.rtl
+@W: CL240 :"H:\vdp\db.vhd":230:9:230:11|dbb.startcmd is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 3 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 4 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 5 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 3 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 4 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 5 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\db.vhd":229:65:229:70|resetx is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:59:229:62|busy is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:50:229:56|disable is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:38:229:41|draw is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:31:229:35|xbias is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:25:229:28|swap is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:19:229:22|negy is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:9:229:12|negx is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 0 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 1 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 2 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 3 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 4 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 5 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 0 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 1 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 2 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 3 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 4 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 5 of signal xnew is floating -- simulation mismatch possible.
+Post processing for work.vdp.rtl
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 16 12:42:27 2015
+
+###########################################################]
+$ Start of Compile
+#Mon Mar 16 12:56:54 2015
+
+Synopsys VHDL Compiler, version comp201309rcp1, Build 042R, built Nov 24 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"H:\vdp\vdp.vhd":11:7:11:9|Top entity is set to vdp.
+File C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std_textio.vhd changed - recompiling
+File H:\vdp\utility_pack.vhd changed - recompiling
+File H:\vdp\project_pack.vhd changed - recompiling
+File H:\vdp\db.vhd changed - recompiling
+File H:\vdp\rcb.vhd changed - recompiling
+File H:\vdp\vdp.vhd changed - recompiling
+@W: CD623 :"H:\vdp\utility_pack.vhd":357:19:357:23|Shared Variables in packages are not recommended.
+VHDL syntax check successful!
+@N: CD630 :"H:\vdp\vdp.vhd":11:7:11:9|Synthesizing work.vdp.rtl 
+@N: CD630 :"H:\vdp\rcb.vhd":6:7:6:9|Synthesizing work.rcb.rtl1 
+@N: CD233 :"H:\vdp\rcb.vhd":41:17:41:18|Using sequential encoding for type state_t
+@N: CD233 :"H:\vdp\rcb.vhd":56:18:56:19|Using sequential encoding for type rstate_t
+@W: CD638 :"H:\vdp\rcb.vhd":33:15:33:16|Signal pw is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":33:19:33:25|Signal wen_all is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":35:15:35:21|Signal pixopin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":36:15:36:19|Signal opout is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":37:11:37:19|Signal rdout_par is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":39:15:39:19|Signal start is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":40:9:40:13|Signal delay is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":42:9:42:13|Signal state is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":42:16:42:21|Signal nstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":44:9:44:11|Signal xin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":44:13:44:15|Signal yin is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":47:9:47:20|Signal word_num_old is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":49:9:49:17|Signal same_word is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":51:9:51:16|Signal clrx_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":51:18:51:25|Signal clry_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":52:23:52:35|Signal clrxy_old_reg is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":54:9:54:17|Signal scan_done is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":57:9:57:14|Signal rstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":57:16:57:22|Signal nrstate is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":58:9:58:13|Signal timer is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":61:9:61:10|Signal p1 is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":61:12:61:13|Signal p2 is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":62:9:62:18|Signal delaycmd_i is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":64:9:64:21|Signal draw_or_clear is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":65:9:65:25|Signal draw_or_clear_old is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":66:9:66:12|Signal move is undriven 
+@W: CD638 :"H:\vdp\rcb.vhd":68:9:68:16|Signal is_clear is undriven 
+Post processing for work.rcb.rtl1
+@W: CL240 :"H:\vdp\rcb.vhd":62:9:62:18|delaycmd_i is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 0 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 1 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 2 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 3 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 4 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:13:44:15|Bit 5 of signal yin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 0 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 1 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 2 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 3 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 4 of signal xin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":44:9:44:11|Bit 5 of signal xin is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\rcb.vhd":40:9:40:13|delay is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\rcb.vhd":27:2:27:11|rcb_finish is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 0 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 1 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 2 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 3 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 4 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 5 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 6 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":24:2:24:6|Bit 7 of signal vaddr is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\rcb.vhd":23:2:23:7|vwrite is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 0 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 1 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 2 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 3 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 4 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 5 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 6 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 7 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 8 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 9 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 10 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 11 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 12 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 13 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 14 of signal vdin is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\rcb.vhd":22:2:22:5|Bit 15 of signal vdin is floating -- simulation mismatch possible.
+@N: CD630 :"H:\vdp\db.vhd":204:7:204:8|Synthesizing work.db.rtl 
+@N: CD231 :"H:\vdp\db.vhd":231:17:231:18|Using onehot encoding for type state_t (idle="1000000000")
+@W: CD638 :"H:\vdp\db.vhd":227:9:227:11|Signal cmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":227:14:227:16|Signal pen is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:9:228:14|Signal xclear is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:16:228:21|Signal yclear is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:23:228:27|Signal xhold is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:29:228:33|Signal yhold is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:35:228:38|Signal xnew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":228:40:228:43|Signal ynew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:9:229:12|Signal negx is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:14:229:16|Signal sel is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:19:229:22|Signal negy is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:25:229:28|Signal swap is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:31:229:35|Signal xbias is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:38:229:41|Signal draw is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:50:229:56|Signal disable is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:59:229:62|Signal busy is undriven 
+@W: CD638 :"H:\vdp\db.vhd":229:65:229:70|Signal resetx is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.startcmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.rcb_cmd is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.y is undriven 
+@W: CD638 :"H:\vdp\db.vhd":230:9:230:11|Signal dbb.x is undriven 
+@W: CD638 :"H:\vdp\db.vhd":232:9:232:13|Signal state is undriven 
+@W: CD638 :"H:\vdp\db.vhd":232:16:232:21|Signal nstate is undriven 
+@N: CD630 :"H:\vdp\db.vhd":149:7:149:21|Synthesizing work.draw_any_octant.comb 
+@W: CD638 :"H:\vdp\db.vhd":167:9:167:15|Signal swapxy1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":167:18:167:22|Signal negx1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":167:25:167:29|Signal negy1 is undriven 
+@N: CD630 :"H:\vdp\db.vhd":6:7:6:17|Synthesizing work.draw_octant.comb 
+@W: CD638 :"H:\vdp\db.vhd":18:9:18:13|Signal done1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":19:9:19:10|Signal x1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":19:13:19:14|Signal y1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:9:20:13|Signal xincr is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:16:20:20|Signal yincr is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:23:20:26|Signal xnew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":20:29:20:32|Signal ynew is undriven 
+@W: CD638 :"H:\vdp\db.vhd":21:9:21:34|Signal error is undriven 
+@W: CD638 :"H:\vdp\db.vhd":22:9:22:12|Signal err1 is undriven 
+@W: CD638 :"H:\vdp\db.vhd":22:15:22:18|Signal err2 is undriven 
+Post processing for work.draw_octant.comb
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 0 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 1 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 2 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 3 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 4 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:13:19:14|Bit 5 of signal y1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 0 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 1 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 2 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 3 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 4 of signal x1 is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":19:9:19:10|Bit 5 of signal x1 is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\db.vhd":18:9:18:13|done1 is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"H:\vdp\db.vhd":117:7:117:9|Synthesizing work.inv.i1 
+Post processing for work.inv.i1
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 0 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 1 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 2 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 3 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 4 of signal b is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":124:4:124:4|Bit 5 of signal b is floating -- simulation mismatch possible.
+@N: CD630 :"H:\vdp\db.vhd":87:7:87:10|Synthesizing work.swap.s1 
+Post processing for work.swap.s1
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 0 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 1 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 2 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 3 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 4 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:10:94:13|Bit 5 of signal yout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 0 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 1 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 2 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 3 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 4 of signal xout is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":94:4:94:7|Bit 5 of signal xout is floating -- simulation mismatch possible.
+Post processing for work.draw_any_octant.comb
+@W: CL240 :"H:\vdp\db.vhd":167:25:167:29|negy1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":167:18:167:22|negx1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":167:9:167:15|swapxy1 is not assigned a value (floating) -- simulation mismatch possible. 
+Post processing for work.db.rtl
+@W: CL240 :"H:\vdp\db.vhd":230:9:230:11|dbb.startcmd is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.rcb_cmd is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 3 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 4 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 5 of signal dbb.Y is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 0 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 1 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 2 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 3 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 4 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":230:9:230:11|Bit 5 of signal dbb.X is floating -- simulation mismatch possible.
+@W: CL240 :"H:\vdp\db.vhd":229:65:229:70|resetx is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:59:229:62|busy is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:50:229:56|disable is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:38:229:41|draw is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:31:229:35|xbias is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:25:229:28|swap is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:19:229:22|negy is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"H:\vdp\db.vhd":229:9:229:12|negx is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 0 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 1 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 2 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 3 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 4 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:40:228:43|Bit 5 of signal ynew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 0 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 1 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 2 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 3 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 4 of signal xnew is floating -- simulation mismatch possible.
+@W: CL252 :"H:\vdp\db.vhd":228:35:228:38|Bit 5 of signal xnew is floating -- simulation mismatch possible.
+Post processing for work.vdp.rtl
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 16 12:56:55 2015
+
+###########################################################]

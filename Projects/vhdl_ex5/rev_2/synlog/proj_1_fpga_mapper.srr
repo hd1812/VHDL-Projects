@@ -1,0 +1,871 @@
+Synopsys Altera Technology Mapper, Version maprc, Build 1911R, Built Nov 26 2013 22:30:01
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+@W: MO171 :"h:\vdp\db.vhd":339:4:339:7|Sequential instance d1.dbb\.rcb_cmd[2] reduced to a combinational gate by constant propagation 
+@W: MO171 :"h:\vdp\db.vhd":339:4:339:7|Sequential instance d1.dbb\.rcb_cmd[1] reduced to a combinational gate by constant propagation 
+@W: MO171 :"h:\vdp\db.vhd":339:4:339:7|Sequential instance d1.dbb\.rcb_cmd[0] reduced to a combinational gate by constant propagation 
+@W: MO171 :"h:\vdp\db.vhd":339:4:339:7|Sequential instance d1.sel reduced to a combinational gate by constant propagation 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MT462 :"h:\vdp\db.vhd":342:20:342:51|Net d1.cmd_0_sqmuxa appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":232:9:232:13|Net d1.nstate_1_sqmuxa appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":279:31:279:50|Net d1.xnew_1_sqmuxa_1 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":430:5:430:22|Net d1.dbb\.X_1_sqmuxa_1 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":339:4:339:7|Net d1.un1_pen_6 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":339:4:339:7|Net d1.un1_state_4 appears to be an unidentified clock source. Assuming default frequency. 
+@N: MT206 |Auto Constrain mode is enabled
+@N: MT336 |Time borrowing improved slack from -2.7003 ns  to -1.4541 ns.  
+@W: MT337 |Time borrowing decreased slack from -1.9402 ns  to -2.2163 ns.  
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+@N:"h:\vdp\db.vhd":228:16:228:21|Found counter in view:work.db(rtl) inst SS_PROC\.yclear[5:0]
+Encoding state machine state[0:9] (view:work.db(rtl))
+original code -> new code
+   0000000001 -> 0000000000
+   0000000010 -> 0000000011
+   0000000100 -> 0000000101
+   0000001000 -> 0000001001
+   0000010000 -> 0000010001
+   0000100000 -> 0000100001
+   0001000000 -> 0001000001
+   0010000000 -> 0010000001
+   0100000000 -> 0100000001
+   1000000000 -> 1000000001
+@N:"h:\vdp\db.vhd":19:13:19:14|Found counter in view:work.draw_octant(comb) inst R1\.y1[5:0]
+@N:"h:\vdp\db.vhd":19:9:19:10|Found counter in view:work.draw_octant(comb) inst R1\.x1[5:0]
+@N:"h:\vdp\rcb.vhd":51:18:51:25|Found updn counter in view:work.rcb(rtl1) inst clear\.clry_reg[5:0] 
+@N:"h:\vdp\rcb.vhd":51:9:51:16|Found updn counter in view:work.rcb(rtl1) inst clear\.clrx_reg[5:0] 
+Encoding state machine rstate[0:3] (view:work.rcb(rtl1))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+Encoding state machine state[0:3] (view:work.rcb(rtl1))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 116MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 116MB peak: 117MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 123MB peak: 124MB)
+
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state_i[9] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":42:9:42:13|Removing sequential instance r1.state[1] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":42:9:42:13|Removing sequential instance r1.state[0] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":54:9:54:17|Removing sequential instance r1.clear\.scan_done of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":57:9:57:14|Removing sequential instance r1.rstate[0] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":57:9:57:14|Removing sequential instance r1.rstate[1] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[4] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[8] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[0] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":64:9:64:21|Removing sequential instance r1.cmd_type\.draw_or_clear of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[7] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[3] of view:ALTERA_APEX.S_DFFE_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[6] of view:ALTERA_APEX.S_DFFE_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[1] of view:ALTERA_APEX.S_DFFE_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":65:9:65:25|Removing sequential instance r1.clear\.draw_or_clear_old of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 126MB peak: 126MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 127MB peak: 127MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 128MB peak: 128MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 128MB peak: 128MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 127MB peak: 128MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 123MB peak: 128MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 123MB peak: 128MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 123MB peak: 128MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:07s; Memory used current: 151MB peak: 155MB)
+
+@N: MF321 |2 registers to be packed into RAMs/DSPs blocks 
+		d1.state_0[1]
+		r1.clear\.draw_or_clear_old_0
+
+New registers created by packing :
+		d1.OCT.DRAW1.state_ret_2
+		d1.rstate_ret_3
+		d1.rstate_ret_4
+		d1.state_ret_1
+		d1.state_ret_2
+		d1.state_ret_3
+		r1.clear\.draw_or_clear_old_ret_1
+		r1.clear\.draw_or_clear_old_ret_2
+		r1.rstate_ret
+		r1.state_ret
+		r1.state_ret_1
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:07s; Memory used current: 151MB peak: 155MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:07s; Memory used current: 151MB peak: 155MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 189 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+12 @K:conv_instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+==================================== Non-Gated/Non-Generated Clocks ====================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                 
+--------------------------------------------------------------------------------------------------------
+@K:CKID0001       clk_in              cycloneii_io           189        r1.clear.draw_or_clear_old_ret_2
+========================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Writing Analyst data base H:\vhdl_ex5\rev_2\proj_1.srm
+@W: MT462 :"h:\vdp\db.vhd":232:9:232:13|Net d1.nstate_1_sqmuxa_0_a2 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":339:4:339:7|Net d1.un1_pen_6_x appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":430:5:430:22|Net d1.X_1_sqmuxa_1 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":342:20:342:51|Net d1.cmd_0_sqmuxa_0_a2_0_x appears to be an unidentified clock source. Assuming default frequency. 
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:08s; Memory used current: 149MB peak: 155MB)
+
+Writing Verilog Netlist and constraint files
+Writing .vqm output for Quartus
+
+Writing scf file... (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:08s; Memory used current: 151MB peak: 155MB)
+
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Netlist and constraint files (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:08s; Memory used current: 149MB peak: 155MB)
+
+@W: MT420 |Found inferred clock vdp|clk with period 9.39ns. Please declare a user-defined clock on object "p:clk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Mar 16 12:57:14 2015
+#
+
+
+Top view:               vdp
+Requested Frequency:    106.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.656
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+vdp|clk            106.5 MHz     90.6 MHz      9.386         11.042        -1.656     inferred     Autoconstr_clkgroup_0
+System             244.8 MHz     361.9 MHz     4.085         2.764         1.322      system       system_clkgroup      
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+System    System   |  No paths    -       |  No paths    -      |  4.085       1.322  |  No paths    -    
+System    vdp|clk  |  9.386       1.512   |  No paths    -      |  9.386       8.001  |  No paths    -    
+vdp|clk   System   |  No paths    -       |  No paths    -      |  9.386       6.736  |  No paths    -    
+vdp|clk   vdp|clk  |  9.386       -1.656  |  No paths    -      |  4.693       2.746  |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: vdp|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                              Starting                                                     Arrival           
+Instance                      Reference     Type                   Pin        Net          Time        Slack 
+                              Clock                                                                          
+-------------------------------------------------------------------------------------------------------------
+d1.OCT.DRAW1.R1\.yincr[0]     vdp|clk       cycloneii_lcell_ff     regout     yincr[0]     0.250       -1.656
+d1.OCT.DRAW1.R1\.xincr[0]     vdp|clk       cycloneii_lcell_ff     regout     xincr[0]     0.250       -1.635
+d1.OCT.DRAW1.R1\.yincr[1]     vdp|clk       cycloneii_lcell_ff     regout     yincr[1]     0.250       -1.446
+d1.OCT.DRAW1.R1\.xincr[1]     vdp|clk       cycloneii_lcell_ff     regout     xincr[1]     0.250       -1.425
+d1.OCT.DRAW1.R1\.yincr[2]     vdp|clk       cycloneii_lcell_ff     regout     yincr[2]     0.250       -1.317
+d1.OCT.DRAW1.R1\.xincr[2]     vdp|clk       cycloneii_lcell_ff     regout     xincr[2]     0.250       -1.296
+d1.OCT.DRAW1.R1\.yincr[3]     vdp|clk       cycloneii_lcell_ff     regout     yincr[3]     0.250       -1.188
+d1.OCT.DRAW1.R1\.xincr[3]     vdp|clk       cycloneii_lcell_ff     regout     xincr[3]     0.250       -1.167
+d1.OCT.DRAW1.R1\.yincr[4]     vdp|clk       cycloneii_lcell_ff     regout     yincr[4]     0.250       -1.059
+d1.OCT.DRAW1.R1\.xincr[4]     vdp|clk       cycloneii_lcell_ff     regout     xincr[4]     0.250       -1.038
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                             Required           
+Instance                      Reference     Type                   Pin        Net                  Time         Slack 
+                              Clock                                                                                   
+----------------------------------------------------------------------------------------------------------------------
+d1.OCT.DRAW1.R1\.error[5]     vdp|clk       cycloneii_lcell_ff     datain     un1_error_2_add5     9.338        -1.656
+d1.OCT.DRAW1.R1\.error[4]     vdp|clk       cycloneii_lcell_ff     datain     un1_error_2_add4     9.338        -1.527
+d1.OCT.DRAW1.R1\.error[3]     vdp|clk       cycloneii_lcell_ff     datain     un1_error_2_add3     9.338        -1.398
+d1.OCT.DRAW1.R1\.error[2]     vdp|clk       cycloneii_lcell_ff     datain     un1_error_2_add2     9.338        -1.269
+d1.OCT.DRAW1.R1\.error[1]     vdp|clk       cycloneii_lcell_ff     datain     un1_error_2_add1     9.338        -0.883
+d1.OCT.DRAW1.R1\.error[0]     vdp|clk       cycloneii_lcell_ff     datain     un1_error_2_add0     9.338        -0.497
+d1.OCT.DRAW1.R1\.y1[0]        vdp|clk       cycloneii_lcell_ff     ena        y1_e0_0_g0_i_o4      8.762        0.559 
+d1.OCT.DRAW1.R1\.y1[4]        vdp|clk       cycloneii_lcell_ff     ena        y1_e0_0_g0_i_o4      8.762        0.559 
+d1.OCT.DRAW1.R1\.y1[1]        vdp|clk       cycloneii_lcell_ff     datain     y1_e1_0_m5           9.338        0.860 
+d1.OCT.DRAW1.R1\.y1[3]        vdp|clk       cycloneii_lcell_ff     datain     y1_e3_0_m5           9.338        0.860 
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      9.386
+    - Setup time:                            0.048
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.338
+
+    - Propagation time:                      10.994
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.656
+
+    Number of logic level(s):                19
+    Starting point:                          d1.OCT.DRAW1.R1\.yincr[0] / regout
+    Ending point:                            d1.OCT.DRAW1.R1\.error[5] / datain
+    The start point is clocked by            vdp|clk [rising] on pin clk
+    The end   point is clocked by            vdp|clk [rising] on pin clk
+
+Instance / Net                                                                Pin         Pin               Arrival     No. of    
+Name                                                 Type                     Name        Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------
+d1.OCT.DRAW1.R1\.yincr[0]                            cycloneii_lcell_ff       regout      Out     0.250     0.250       -         
+yincr[0]                                             Net                      -           -       0.910     -           3         
+d1.OCT.DRAW1.C1\.un2_err2_add0                       cycloneii_lcell_comb     dataa       In      -         1.160       -         
+d1.OCT.DRAW1.C1\.un2_err2_add0                       cycloneii_lcell_comb     cout        Out     0.414     1.574       -         
+un2_err2_carry_0                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.C1\.un2_err2_add1                       cycloneii_lcell_comb     cin         In      -         1.574       -         
+d1.OCT.DRAW1.C1\.un2_err2_add1                       cycloneii_lcell_comb     combout     Out     0.410     1.984       -         
+un2_err2_add1                                        Net                      -           -       0.730     -           1         
+d1.OCT.DRAW1.result_1_add1                           cycloneii_lcell_comb     dataa       In      -         2.714       -         
+d1.OCT.DRAW1.result_1_add1                           cycloneii_lcell_comb     cout        Out     0.414     3.128       -         
+result_1_carry_1                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.result_1_add2                           cycloneii_lcell_comb     cin         In      -         3.128       -         
+d1.OCT.DRAW1.result_1_add2                           cycloneii_lcell_comb     combout     Out     0.410     3.538       -         
+result_1_add2                                        Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.inf_abs1_a_1_anc2                       cycloneii_lcell_comb     datac       In      -         3.833       -         
+d1.OCT.DRAW1.inf_abs1_a_1_anc2                       cycloneii_lcell_comb     combout     Out     0.275     4.108       -         
+inf_abs1_a_1_anc2                                    Net                      -           -       0.301     -           3         
+d1.OCT.DRAW1.inf_abs1_a_1_anc4                       cycloneii_lcell_comb     datac       In      -         4.409       -         
+d1.OCT.DRAW1.inf_abs1_a_1_anc4                       cycloneii_lcell_comb     combout     Out     0.275     4.684       -         
+inf_abs1_a_1_anc4                                    Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.C1\.op_abs\.inf_abs1[5]                 cycloneii_lcell_comb     datac       In      -         4.979       -         
+d1.OCT.DRAW1.C1\.op_abs\.inf_abs1[5]                 cycloneii_lcell_comb     combout     Out     0.275     5.254       -         
+inf_abs1[5]                                          Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_6     cycloneii_lcell_comb     dataa       In      -         5.609       -         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_6     cycloneii_lcell_comb     cout        Out     0.414     6.023       -         
+lt_5                                                 Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_7     cycloneii_lcell_comb     cin         In      -         6.023       -         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_7     cycloneii_lcell_comb     combout     Out     0.410     6.433       -         
+un15_disable_7                                       Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un12_disable_5_3                    cycloneii_lcell_comb     datad       In      -         6.789       -         
+d1.OCT.DRAW1.R1\.un12_disable_5_3                    cycloneii_lcell_comb     combout     Out     0.150     6.939       -         
+un12_disable_5_3                                     Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un12_disable_5                      cycloneii_lcell_comb     datad       In      -         7.294       -         
+d1.OCT.DRAW1.R1\.un12_disable_5                      cycloneii_lcell_comb     combout     Out     0.150     7.444       -         
+un12_disable_5                                       Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.un4_0_a2_0_RNIKJL71[5]                  cycloneii_lcell_comb     datad       In      -         7.739       -         
+d1.OCT.DRAW1.un4_0_a2_0_RNIKJL71[5]                  cycloneii_lcell_comb     combout     Out     0.150     7.888       -         
+un14_disable_0                                       Net                      -           -       0.341     -           7         
+d1.OCT.DRAW1.un1_error_2_0_add0                      cycloneii_lcell_comb     dataa       In      -         8.229       -         
+d1.OCT.DRAW1.un1_error_2_0_add0                      cycloneii_lcell_comb     cout        Out     0.414     8.643       -         
+un1_error_2_0_carry_0                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add1                      cycloneii_lcell_comb     cin         In      -         8.643       -         
+d1.OCT.DRAW1.un1_error_2_0_add1                      cycloneii_lcell_comb     cout        Out     0.129     8.772       -         
+un1_error_2_0_carry_1                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add2                      cycloneii_lcell_comb     cin         In      -         8.772       -         
+d1.OCT.DRAW1.un1_error_2_0_add2                      cycloneii_lcell_comb     cout        Out     0.129     8.901       -         
+un1_error_2_0_carry_2                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add3                      cycloneii_lcell_comb     cin         In      -         8.901       -         
+d1.OCT.DRAW1.un1_error_2_0_add3                      cycloneii_lcell_comb     cout        Out     0.129     9.030       -         
+un1_error_2_0_carry_3                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add4                      cycloneii_lcell_comb     cin         In      -         9.030       -         
+d1.OCT.DRAW1.un1_error_2_0_add4                      cycloneii_lcell_comb     combout     Out     0.410     9.440       -         
+un1_error_2_0_add4                                   Net                      -           -       0.730     -           1         
+d1.OCT.DRAW1.un1_error_2_add4                        cycloneii_lcell_comb     dataa       In      -         10.170      -         
+d1.OCT.DRAW1.un1_error_2_add4                        cycloneii_lcell_comb     cout        Out     0.414     10.584      -         
+un1_error_2_carry_4                                  Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_add5                        cycloneii_lcell_comb     cin         In      -         10.584      -         
+d1.OCT.DRAW1.un1_error_2_add5                        cycloneii_lcell_comb     combout     Out     0.410     10.994      -         
+un1_error_2_add5                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.R1\.error[5]                            cycloneii_lcell_ff       datain      In      -         10.994      -         
+==================================================================================================================================
+Total path delay (propagation time + setup) of 11.042 is 6.080(55.1%) logic and 4.962(44.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      9.386
+    - Setup time:                            0.048
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.338
+
+    - Propagation time:                      10.994
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.656
+
+    Number of logic level(s):                19
+    Starting point:                          d1.OCT.DRAW1.R1\.yincr[0] / regout
+    Ending point:                            d1.OCT.DRAW1.R1\.error[5] / datain
+    The start point is clocked by            vdp|clk [rising] on pin clk
+    The end   point is clocked by            vdp|clk [rising] on pin clk
+
+Instance / Net                                                                Pin         Pin               Arrival     No. of    
+Name                                                 Type                     Name        Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------
+d1.OCT.DRAW1.R1\.yincr[0]                            cycloneii_lcell_ff       regout      Out     0.250     0.250       -         
+yincr[0]                                             Net                      -           -       0.910     -           3         
+d1.OCT.DRAW1.C1\.un2_err2_add0                       cycloneii_lcell_comb     dataa       In      -         1.160       -         
+d1.OCT.DRAW1.C1\.un2_err2_add0                       cycloneii_lcell_comb     cout        Out     0.414     1.574       -         
+un2_err2_carry_0                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.C1\.un2_err2_add1                       cycloneii_lcell_comb     cin         In      -         1.574       -         
+d1.OCT.DRAW1.C1\.un2_err2_add1                       cycloneii_lcell_comb     combout     Out     0.410     1.984       -         
+un2_err2_add1                                        Net                      -           -       0.730     -           1         
+d1.OCT.DRAW1.result_1_add1                           cycloneii_lcell_comb     dataa       In      -         2.714       -         
+d1.OCT.DRAW1.result_1_add1                           cycloneii_lcell_comb     cout        Out     0.414     3.128       -         
+result_1_carry_1                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.result_1_add2                           cycloneii_lcell_comb     cin         In      -         3.128       -         
+d1.OCT.DRAW1.result_1_add2                           cycloneii_lcell_comb     combout     Out     0.410     3.538       -         
+result_1_add2                                        Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.inf_abs1_a_1_anc2                       cycloneii_lcell_comb     datac       In      -         3.833       -         
+d1.OCT.DRAW1.inf_abs1_a_1_anc2                       cycloneii_lcell_comb     combout     Out     0.275     4.108       -         
+inf_abs1_a_1_anc2                                    Net                      -           -       0.301     -           3         
+d1.OCT.DRAW1.inf_abs1_a_1_anc4                       cycloneii_lcell_comb     datac       In      -         4.409       -         
+d1.OCT.DRAW1.inf_abs1_a_1_anc4                       cycloneii_lcell_comb     combout     Out     0.275     4.684       -         
+inf_abs1_a_1_anc4                                    Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.C1\.op_abs\.inf_abs1[5]                 cycloneii_lcell_comb     datac       In      -         4.979       -         
+d1.OCT.DRAW1.C1\.op_abs\.inf_abs1[5]                 cycloneii_lcell_comb     combout     Out     0.275     5.254       -         
+inf_abs1[5]                                          Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_6     cycloneii_lcell_comb     dataa       In      -         5.609       -         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_6     cycloneii_lcell_comb     cout        Out     0.414     6.023       -         
+lt_5                                                 Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_7     cycloneii_lcell_comb     cin         In      -         6.023       -         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_7     cycloneii_lcell_comb     combout     Out     0.410     6.433       -         
+un15_disable_7                                       Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un12_disable_5_3                    cycloneii_lcell_comb     datad       In      -         6.789       -         
+d1.OCT.DRAW1.R1\.un12_disable_5_3                    cycloneii_lcell_comb     combout     Out     0.150     6.939       -         
+un12_disable_5_3                                     Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un12_disable_5                      cycloneii_lcell_comb     datad       In      -         7.294       -         
+d1.OCT.DRAW1.R1\.un12_disable_5                      cycloneii_lcell_comb     combout     Out     0.150     7.444       -         
+un12_disable_5                                       Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.un4_0_a2_0_RNIKJL71[5]                  cycloneii_lcell_comb     datad       In      -         7.739       -         
+d1.OCT.DRAW1.un4_0_a2_0_RNIKJL71[5]                  cycloneii_lcell_comb     combout     Out     0.150     7.888       -         
+un14_disable_0                                       Net                      -           -       0.341     -           7         
+d1.OCT.DRAW1.un1_error_2_0_add0                      cycloneii_lcell_comb     dataa       In      -         8.229       -         
+d1.OCT.DRAW1.un1_error_2_0_add0                      cycloneii_lcell_comb     cout        Out     0.414     8.643       -         
+un1_error_2_0_carry_0                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add1                      cycloneii_lcell_comb     cin         In      -         8.643       -         
+d1.OCT.DRAW1.un1_error_2_0_add1                      cycloneii_lcell_comb     combout     Out     0.410     9.053       -         
+un1_error_2_0_add1                                   Net                      -           -       0.730     -           1         
+d1.OCT.DRAW1.un1_error_2_add1                        cycloneii_lcell_comb     dataa       In      -         9.783       -         
+d1.OCT.DRAW1.un1_error_2_add1                        cycloneii_lcell_comb     cout        Out     0.414     10.197      -         
+un1_error_2_carry_1                                  Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_add2                        cycloneii_lcell_comb     cin         In      -         10.197      -         
+d1.OCT.DRAW1.un1_error_2_add2                        cycloneii_lcell_comb     cout        Out     0.129     10.326      -         
+un1_error_2_carry_2                                  Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_add3                        cycloneii_lcell_comb     cin         In      -         10.326      -         
+d1.OCT.DRAW1.un1_error_2_add3                        cycloneii_lcell_comb     cout        Out     0.129     10.455      -         
+un1_error_2_carry_3                                  Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_add4                        cycloneii_lcell_comb     cin         In      -         10.455      -         
+d1.OCT.DRAW1.un1_error_2_add4                        cycloneii_lcell_comb     cout        Out     0.129     10.584      -         
+un1_error_2_carry_4                                  Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_add5                        cycloneii_lcell_comb     cin         In      -         10.584      -         
+d1.OCT.DRAW1.un1_error_2_add5                        cycloneii_lcell_comb     combout     Out     0.410     10.994      -         
+un1_error_2_add5                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.R1\.error[5]                            cycloneii_lcell_ff       datain      In      -         10.994      -         
+==================================================================================================================================
+Total path delay (propagation time + setup) of 11.042 is 6.080(55.1%) logic and 4.962(44.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      9.386
+    - Setup time:                            0.048
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.338
+
+    - Propagation time:                      10.994
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.656
+
+    Number of logic level(s):                19
+    Starting point:                          d1.OCT.DRAW1.R1\.yincr[0] / regout
+    Ending point:                            d1.OCT.DRAW1.R1\.error[5] / datain
+    The start point is clocked by            vdp|clk [rising] on pin clk
+    The end   point is clocked by            vdp|clk [rising] on pin clk
+
+Instance / Net                                                                Pin         Pin               Arrival     No. of    
+Name                                                 Type                     Name        Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------
+d1.OCT.DRAW1.R1\.yincr[0]                            cycloneii_lcell_ff       regout      Out     0.250     0.250       -         
+yincr[0]                                             Net                      -           -       0.910     -           3         
+d1.OCT.DRAW1.C1\.un2_err2_add0                       cycloneii_lcell_comb     dataa       In      -         1.160       -         
+d1.OCT.DRAW1.C1\.un2_err2_add0                       cycloneii_lcell_comb     cout        Out     0.414     1.574       -         
+un2_err2_carry_0                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.C1\.un2_err2_add1                       cycloneii_lcell_comb     cin         In      -         1.574       -         
+d1.OCT.DRAW1.C1\.un2_err2_add1                       cycloneii_lcell_comb     combout     Out     0.410     1.984       -         
+un2_err2_add1                                        Net                      -           -       0.730     -           1         
+d1.OCT.DRAW1.result_1_add1                           cycloneii_lcell_comb     dataa       In      -         2.714       -         
+d1.OCT.DRAW1.result_1_add1                           cycloneii_lcell_comb     cout        Out     0.414     3.128       -         
+result_1_carry_1                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.result_1_add2                           cycloneii_lcell_comb     cin         In      -         3.128       -         
+d1.OCT.DRAW1.result_1_add2                           cycloneii_lcell_comb     combout     Out     0.410     3.538       -         
+result_1_add2                                        Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.inf_abs1_a_1_anc2                       cycloneii_lcell_comb     datac       In      -         3.833       -         
+d1.OCT.DRAW1.inf_abs1_a_1_anc2                       cycloneii_lcell_comb     combout     Out     0.275     4.108       -         
+inf_abs1_a_1_anc2                                    Net                      -           -       0.301     -           3         
+d1.OCT.DRAW1.inf_abs1_a_1_anc4                       cycloneii_lcell_comb     datac       In      -         4.409       -         
+d1.OCT.DRAW1.inf_abs1_a_1_anc4                       cycloneii_lcell_comb     combout     Out     0.275     4.684       -         
+inf_abs1_a_1_anc4                                    Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.C1\.op_abs\.inf_abs1[5]                 cycloneii_lcell_comb     datac       In      -         4.979       -         
+d1.OCT.DRAW1.C1\.op_abs\.inf_abs1[5]                 cycloneii_lcell_comb     combout     Out     0.275     5.254       -         
+inf_abs1[5]                                          Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_6     cycloneii_lcell_comb     dataa       In      -         5.609       -         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_6     cycloneii_lcell_comb     cout        Out     0.414     6.023       -         
+lt_5                                                 Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_7     cycloneii_lcell_comb     cin         In      -         6.023       -         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_7     cycloneii_lcell_comb     combout     Out     0.410     6.433       -         
+un15_disable_7                                       Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un12_disable_5_3                    cycloneii_lcell_comb     datad       In      -         6.789       -         
+d1.OCT.DRAW1.R1\.un12_disable_5_3                    cycloneii_lcell_comb     combout     Out     0.150     6.939       -         
+un12_disable_5_3                                     Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un12_disable_5                      cycloneii_lcell_comb     datad       In      -         7.294       -         
+d1.OCT.DRAW1.R1\.un12_disable_5                      cycloneii_lcell_comb     combout     Out     0.150     7.444       -         
+un12_disable_5                                       Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.un4_0_a2_0_RNIKJL71[5]                  cycloneii_lcell_comb     datad       In      -         7.739       -         
+d1.OCT.DRAW1.un4_0_a2_0_RNIKJL71[5]                  cycloneii_lcell_comb     combout     Out     0.150     7.888       -         
+un14_disable_0                                       Net                      -           -       0.341     -           7         
+d1.OCT.DRAW1.un1_error_2_0_add0                      cycloneii_lcell_comb     dataa       In      -         8.229       -         
+d1.OCT.DRAW1.un1_error_2_0_add0                      cycloneii_lcell_comb     cout        Out     0.414     8.643       -         
+un1_error_2_0_carry_0                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add1                      cycloneii_lcell_comb     cin         In      -         8.643       -         
+d1.OCT.DRAW1.un1_error_2_0_add1                      cycloneii_lcell_comb     cout        Out     0.129     8.772       -         
+un1_error_2_0_carry_1                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add2                      cycloneii_lcell_comb     cin         In      -         8.772       -         
+d1.OCT.DRAW1.un1_error_2_0_add2                      cycloneii_lcell_comb     combout     Out     0.410     9.182       -         
+un1_error_2_0_add2                                   Net                      -           -       0.730     -           1         
+d1.OCT.DRAW1.un1_error_2_add2                        cycloneii_lcell_comb     dataa       In      -         9.912       -         
+d1.OCT.DRAW1.un1_error_2_add2                        cycloneii_lcell_comb     cout        Out     0.414     10.326      -         
+un1_error_2_carry_2                                  Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_add3                        cycloneii_lcell_comb     cin         In      -         10.326      -         
+d1.OCT.DRAW1.un1_error_2_add3                        cycloneii_lcell_comb     cout        Out     0.129     10.455      -         
+un1_error_2_carry_3                                  Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_add4                        cycloneii_lcell_comb     cin         In      -         10.455      -         
+d1.OCT.DRAW1.un1_error_2_add4                        cycloneii_lcell_comb     cout        Out     0.129     10.584      -         
+un1_error_2_carry_4                                  Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_add5                        cycloneii_lcell_comb     cin         In      -         10.584      -         
+d1.OCT.DRAW1.un1_error_2_add5                        cycloneii_lcell_comb     combout     Out     0.410     10.994      -         
+un1_error_2_add5                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.R1\.error[5]                            cycloneii_lcell_ff       datain      In      -         10.994      -         
+==================================================================================================================================
+Total path delay (propagation time + setup) of 11.042 is 6.080(55.1%) logic and 4.962(44.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      9.386
+    - Setup time:                            0.048
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.338
+
+    - Propagation time:                      10.994
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.656
+
+    Number of logic level(s):                19
+    Starting point:                          d1.OCT.DRAW1.R1\.yincr[0] / regout
+    Ending point:                            d1.OCT.DRAW1.R1\.error[5] / datain
+    The start point is clocked by            vdp|clk [rising] on pin clk
+    The end   point is clocked by            vdp|clk [rising] on pin clk
+
+Instance / Net                                                                Pin         Pin               Arrival     No. of    
+Name                                                 Type                     Name        Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------
+d1.OCT.DRAW1.R1\.yincr[0]                            cycloneii_lcell_ff       regout      Out     0.250     0.250       -         
+yincr[0]                                             Net                      -           -       0.910     -           3         
+d1.OCT.DRAW1.C1\.un2_err2_add0                       cycloneii_lcell_comb     dataa       In      -         1.160       -         
+d1.OCT.DRAW1.C1\.un2_err2_add0                       cycloneii_lcell_comb     cout        Out     0.414     1.574       -         
+un2_err2_carry_0                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.C1\.un2_err2_add1                       cycloneii_lcell_comb     cin         In      -         1.574       -         
+d1.OCT.DRAW1.C1\.un2_err2_add1                       cycloneii_lcell_comb     combout     Out     0.410     1.984       -         
+un2_err2_add1                                        Net                      -           -       0.730     -           1         
+d1.OCT.DRAW1.result_1_add1                           cycloneii_lcell_comb     dataa       In      -         2.714       -         
+d1.OCT.DRAW1.result_1_add1                           cycloneii_lcell_comb     cout        Out     0.414     3.128       -         
+result_1_carry_1                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.result_1_add2                           cycloneii_lcell_comb     cin         In      -         3.128       -         
+d1.OCT.DRAW1.result_1_add2                           cycloneii_lcell_comb     combout     Out     0.410     3.538       -         
+result_1_add2                                        Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.inf_abs1_a_1_anc2                       cycloneii_lcell_comb     datac       In      -         3.833       -         
+d1.OCT.DRAW1.inf_abs1_a_1_anc2                       cycloneii_lcell_comb     combout     Out     0.275     4.108       -         
+inf_abs1_a_1_anc2                                    Net                      -           -       0.301     -           3         
+d1.OCT.DRAW1.inf_abs1_a_1_anc4                       cycloneii_lcell_comb     datac       In      -         4.409       -         
+d1.OCT.DRAW1.inf_abs1_a_1_anc4                       cycloneii_lcell_comb     combout     Out     0.275     4.684       -         
+inf_abs1_a_1_anc4                                    Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.C1\.op_abs\.inf_abs1[5]                 cycloneii_lcell_comb     datac       In      -         4.979       -         
+d1.OCT.DRAW1.C1\.op_abs\.inf_abs1[5]                 cycloneii_lcell_comb     combout     Out     0.275     5.254       -         
+inf_abs1[5]                                          Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_6     cycloneii_lcell_comb     dataa       In      -         5.609       -         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_6     cycloneii_lcell_comb     cout        Out     0.414     6.023       -         
+lt_5                                                 Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_7     cycloneii_lcell_comb     cin         In      -         6.023       -         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_7     cycloneii_lcell_comb     combout     Out     0.410     6.433       -         
+un15_disable_7                                       Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un12_disable_5_3                    cycloneii_lcell_comb     datad       In      -         6.789       -         
+d1.OCT.DRAW1.R1\.un12_disable_5_3                    cycloneii_lcell_comb     combout     Out     0.150     6.939       -         
+un12_disable_5_3                                     Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un12_disable_5                      cycloneii_lcell_comb     datad       In      -         7.294       -         
+d1.OCT.DRAW1.R1\.un12_disable_5                      cycloneii_lcell_comb     combout     Out     0.150     7.444       -         
+un12_disable_5                                       Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.un4_0_a2_0_RNIKJL71[5]                  cycloneii_lcell_comb     datad       In      -         7.739       -         
+d1.OCT.DRAW1.un4_0_a2_0_RNIKJL71[5]                  cycloneii_lcell_comb     combout     Out     0.150     7.888       -         
+un14_disable_0                                       Net                      -           -       0.341     -           7         
+d1.OCT.DRAW1.un1_error_2_0_add0                      cycloneii_lcell_comb     dataa       In      -         8.229       -         
+d1.OCT.DRAW1.un1_error_2_0_add0                      cycloneii_lcell_comb     cout        Out     0.414     8.643       -         
+un1_error_2_0_carry_0                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add1                      cycloneii_lcell_comb     cin         In      -         8.643       -         
+d1.OCT.DRAW1.un1_error_2_0_add1                      cycloneii_lcell_comb     cout        Out     0.129     8.772       -         
+un1_error_2_0_carry_1                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add2                      cycloneii_lcell_comb     cin         In      -         8.772       -         
+d1.OCT.DRAW1.un1_error_2_0_add2                      cycloneii_lcell_comb     cout        Out     0.129     8.901       -         
+un1_error_2_0_carry_2                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add3                      cycloneii_lcell_comb     cin         In      -         8.901       -         
+d1.OCT.DRAW1.un1_error_2_0_add3                      cycloneii_lcell_comb     combout     Out     0.410     9.311       -         
+un1_error_2_0_add3                                   Net                      -           -       0.730     -           1         
+d1.OCT.DRAW1.un1_error_2_add3                        cycloneii_lcell_comb     dataa       In      -         10.041      -         
+d1.OCT.DRAW1.un1_error_2_add3                        cycloneii_lcell_comb     cout        Out     0.414     10.455      -         
+un1_error_2_carry_3                                  Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_add4                        cycloneii_lcell_comb     cin         In      -         10.455      -         
+d1.OCT.DRAW1.un1_error_2_add4                        cycloneii_lcell_comb     cout        Out     0.129     10.584      -         
+un1_error_2_carry_4                                  Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_add5                        cycloneii_lcell_comb     cin         In      -         10.584      -         
+d1.OCT.DRAW1.un1_error_2_add5                        cycloneii_lcell_comb     combout     Out     0.410     10.994      -         
+un1_error_2_add5                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.R1\.error[5]                            cycloneii_lcell_ff       datain      In      -         10.994      -         
+==================================================================================================================================
+Total path delay (propagation time + setup) of 11.042 is 6.080(55.1%) logic and 4.962(44.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      9.386
+    - Setup time:                            0.048
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.338
+
+    - Propagation time:                      10.973
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.635
+
+    Number of logic level(s):                19
+    Starting point:                          d1.OCT.DRAW1.R1\.xincr[0] / regout
+    Ending point:                            d1.OCT.DRAW1.R1\.error[5] / datain
+    The start point is clocked by            vdp|clk [rising] on pin clk
+    The end   point is clocked by            vdp|clk [rising] on pin clk
+
+Instance / Net                                                                Pin         Pin               Arrival     No. of    
+Name                                                 Type                     Name        Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------
+d1.OCT.DRAW1.R1\.xincr[0]                            cycloneii_lcell_ff       regout      Out     0.250     0.250       -         
+xincr[0]                                             Net                      -           -       0.910     -           2         
+d1.OCT.DRAW1.C1\.un2_err2_add0                       cycloneii_lcell_comb     datab       In      -         1.160       -         
+d1.OCT.DRAW1.C1\.un2_err2_add0                       cycloneii_lcell_comb     cout        Out     0.393     1.553       -         
+un2_err2_carry_0                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.C1\.un2_err2_add1                       cycloneii_lcell_comb     cin         In      -         1.553       -         
+d1.OCT.DRAW1.C1\.un2_err2_add1                       cycloneii_lcell_comb     combout     Out     0.410     1.963       -         
+un2_err2_add1                                        Net                      -           -       0.730     -           1         
+d1.OCT.DRAW1.result_1_add1                           cycloneii_lcell_comb     dataa       In      -         2.693       -         
+d1.OCT.DRAW1.result_1_add1                           cycloneii_lcell_comb     cout        Out     0.414     3.107       -         
+result_1_carry_1                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.result_1_add2                           cycloneii_lcell_comb     cin         In      -         3.107       -         
+d1.OCT.DRAW1.result_1_add2                           cycloneii_lcell_comb     combout     Out     0.410     3.517       -         
+result_1_add2                                        Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.inf_abs1_a_1_anc2                       cycloneii_lcell_comb     datac       In      -         3.812       -         
+d1.OCT.DRAW1.inf_abs1_a_1_anc2                       cycloneii_lcell_comb     combout     Out     0.275     4.087       -         
+inf_abs1_a_1_anc2                                    Net                      -           -       0.301     -           3         
+d1.OCT.DRAW1.inf_abs1_a_1_anc4                       cycloneii_lcell_comb     datac       In      -         4.388       -         
+d1.OCT.DRAW1.inf_abs1_a_1_anc4                       cycloneii_lcell_comb     combout     Out     0.275     4.663       -         
+inf_abs1_a_1_anc4                                    Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.C1\.op_abs\.inf_abs1[5]                 cycloneii_lcell_comb     datac       In      -         4.958       -         
+d1.OCT.DRAW1.C1\.op_abs\.inf_abs1[5]                 cycloneii_lcell_comb     combout     Out     0.275     5.233       -         
+inf_abs1[5]                                          Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_6     cycloneii_lcell_comb     dataa       In      -         5.588       -         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_6     cycloneii_lcell_comb     cout        Out     0.414     6.002       -         
+lt_5                                                 Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_7     cycloneii_lcell_comb     cin         In      -         6.002       -         
+d1.OCT.DRAW1.R1\.un15_disable.R1\.un15_disable_7     cycloneii_lcell_comb     combout     Out     0.410     6.412       -         
+un15_disable_7                                       Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un12_disable_5_3                    cycloneii_lcell_comb     datad       In      -         6.768       -         
+d1.OCT.DRAW1.R1\.un12_disable_5_3                    cycloneii_lcell_comb     combout     Out     0.150     6.918       -         
+un12_disable_5_3                                     Net                      -           -       0.355     -           1         
+d1.OCT.DRAW1.R1\.un12_disable_5                      cycloneii_lcell_comb     datad       In      -         7.273       -         
+d1.OCT.DRAW1.R1\.un12_disable_5                      cycloneii_lcell_comb     combout     Out     0.150     7.423       -         
+un12_disable_5                                       Net                      -           -       0.295     -           2         
+d1.OCT.DRAW1.un4_0_a2_0_RNIKJL71[5]                  cycloneii_lcell_comb     datad       In      -         7.718       -         
+d1.OCT.DRAW1.un4_0_a2_0_RNIKJL71[5]                  cycloneii_lcell_comb     combout     Out     0.150     7.867       -         
+un14_disable_0                                       Net                      -           -       0.341     -           7         
+d1.OCT.DRAW1.un1_error_2_0_add0                      cycloneii_lcell_comb     dataa       In      -         8.208       -         
+d1.OCT.DRAW1.un1_error_2_0_add0                      cycloneii_lcell_comb     cout        Out     0.414     8.622       -         
+un1_error_2_0_carry_0                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add1                      cycloneii_lcell_comb     cin         In      -         8.622       -         
+d1.OCT.DRAW1.un1_error_2_0_add1                      cycloneii_lcell_comb     cout        Out     0.129     8.751       -         
+un1_error_2_0_carry_1                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add2                      cycloneii_lcell_comb     cin         In      -         8.751       -         
+d1.OCT.DRAW1.un1_error_2_0_add2                      cycloneii_lcell_comb     cout        Out     0.129     8.880       -         
+un1_error_2_0_carry_2                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add3                      cycloneii_lcell_comb     cin         In      -         8.880       -         
+d1.OCT.DRAW1.un1_error_2_0_add3                      cycloneii_lcell_comb     cout        Out     0.129     9.009       -         
+un1_error_2_0_carry_3                                Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_0_add4                      cycloneii_lcell_comb     cin         In      -         9.009       -         
+d1.OCT.DRAW1.un1_error_2_0_add4                      cycloneii_lcell_comb     combout     Out     0.410     9.419       -         
+un1_error_2_0_add4                                   Net                      -           -       0.730     -           1         
+d1.OCT.DRAW1.un1_error_2_add4                        cycloneii_lcell_comb     dataa       In      -         10.149      -         
+d1.OCT.DRAW1.un1_error_2_add4                        cycloneii_lcell_comb     cout        Out     0.414     10.563      -         
+un1_error_2_carry_4                                  Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.un1_error_2_add5                        cycloneii_lcell_comb     cin         In      -         10.563      -         
+d1.OCT.DRAW1.un1_error_2_add5                        cycloneii_lcell_comb     combout     Out     0.410     10.973      -         
+un1_error_2_add5                                     Net                      -           -       0.000     -           1         
+d1.OCT.DRAW1.R1\.error[5]                            cycloneii_lcell_ff       datain      In      -         10.973      -         
+==================================================================================================================================
+Total path delay (propagation time + setup) of 11.021 is 6.059(55.0%) logic and 4.962(45.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                             Arrival          
+Instance         Reference     Type             Pin      Net          Time        Slack
+                 Clock                                                                 
+---------------------------------------------------------------------------------------
+d1.dbb\.X[0]     System        SYNLPM_LAT1      Q[0]     X_0          0.250       1.322
+d1.dbb\.Y[0]     System        SYNLPM_LAT1      Q[0]     Y_0          0.250       1.343
+d1.xhold[0]      System        SYNLPM_LAT1      Q[0]     xhold[0]     0.250       1.360
+d1.yhold[0]      System        SYNLPM_LAT1      Q[0]     yhold[0]     0.250       1.381
+d1.xhold[1]      System        SYNLPM_LAT1      Q[0]     xhold[1]     0.250       1.489
+d1.dbb\.X[1]     System        SYNLPM_LAT1      Q[0]     X_1          0.250       1.497
+d1.yhold[1]      System        SYNLPM_LAT1      Q[0]     yhold[1]     0.250       1.510
+d1.swap          System        SYNLPM_LATR1     Q[0]     swap         2.293       1.512
+d1.dbb\.Y[1]     System        SYNLPM_LAT1      Q[0]     Y_1          0.250       1.518
+d1.xhold[2]      System        SYNLPM_LAT1      Q[0]     xhold[2]     0.250       1.618
+=======================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                              Required          
+Instance                      Reference     Type                   Pin         Net                  Time         Slack
+                              Clock                                                                                   
+----------------------------------------------------------------------------------------------------------------------
+d1.swap                       System        SYNLPM_LATR1           DATA[0]     lt5_1                6.164        1.322
+d1.OCT.DRAW1.R1\.error[5]     System        cycloneii_lcell_ff     datain      un1_error_2_add5     9.338        1.512
+d1.OCT.DRAW1.R1\.error[4]     System        cycloneii_lcell_ff     datain      un1_error_2_add4     9.338        1.641
+d1.OCT.DRAW1.R1\.error[3]     System        cycloneii_lcell_ff     datain      un1_error_2_add3     9.338        1.770
+d1.negx                       System        SYNLPM_LATR1           DATA[0]     lt5                  4.121        1.810
+d1.negy                       System        SYNLPM_LATR1           DATA[0]     lt5_0                4.121        1.810
+d1.OCT.DRAW1.R1\.error[2]     System        cycloneii_lcell_ff     datain      un1_error_2_add2     9.338        1.899
+d1.dbb\.X[0]                  System        SYNLPM_LAT1            DATA[0]     X_1[0]               4.121        2.269
+d1.dbb\.X[1]                  System        SYNLPM_LAT1            DATA[0]     X_1[1]               4.121        2.269
+d1.dbb\.X[2]                  System        SYNLPM_LAT1            DATA[0]     X_1[2]               4.121        2.269
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      4.085
+    - Setup time:                            -0.036
+    + time borrowed from endpoint:           2.043
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         6.164
+
+    - Propagation time:                      4.842
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1.322
+
+    Number of logic level(s):                12
+    Starting point:                          d1.dbb\.X[0] / Q[0]
+    Ending point:                            d1.swap / DATA[0], time borrowed from endpoint 2.043
+    The start point is clocked by            System [rising] on pin GATE
+    The end   point is clocked by            System [rising] on pin GATE
+
+Instance / Net                                                     Pin         Pin               Arrival     No. of    
+Name                                      Type                     Name        Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+d1.dbb\.X[0]                              SYNLPM_LAT1              Q[0]        Out     0.250     0.250       -         
+X_0                                       Net                      -           -       0.387     -           11        
+d1.OCTANTCMB\.op_abs\.result_1_1_add0     cycloneii_lcell_comb     datab       In      -         0.637       -         
+d1.OCTANTCMB\.op_abs\.result_1_1_add0     cycloneii_lcell_comb     cout        Out     0.393     1.030       -         
+result_1_1_carry_0                        Net                      -           -       0.000     -           1         
+d1.OCTANTCMB\.op_abs\.result_1_1_add1     cycloneii_lcell_comb     cin         In      -         1.030       -         
+d1.OCTANTCMB\.op_abs\.result_1_1_add1     cycloneii_lcell_comb     cout        Out     0.129     1.159       -         
+result_1_1_carry_1                        Net                      -           -       0.000     -           1         
+d1.OCTANTCMB\.op_abs\.result_1_1_add2     cycloneii_lcell_comb     cin         In      -         1.159       -         
+d1.OCTANTCMB\.op_abs\.result_1_1_add2     cycloneii_lcell_comb     cout        Out     0.129     1.288       -         
+result_1_1_carry_2                        Net                      -           -       0.000     -           1         
+d1.OCTANTCMB\.op_abs\.result_1_1_add3     cycloneii_lcell_comb     cin         In      -         1.288       -         
+d1.OCTANTCMB\.op_abs\.result_1_1_add3     cycloneii_lcell_comb     cout        Out     0.129     1.417       -         
+result_1_1_carry_3                        Net                      -           -       0.000     -           1         
+d1.OCTANTCMB\.op_abs\.result_1_1_add4     cycloneii_lcell_comb     cin         In      -         1.417       -         
+d1.OCTANTCMB\.op_abs\.result_1_1_add4     cycloneii_lcell_comb     cout        Out     0.129     1.546       -         
+result_1_1_carry_4                        Net                      -           -       0.000     -           1         
+d1.OCTANTCMB\.op_abs\.result_1_1_add5     cycloneii_lcell_comb     cin         In      -         1.546       -         
+d1.OCTANTCMB\.op_abs\.result_1_1_add5     cycloneii_lcell_comb     combout     Out     0.410     1.956       -         
+result_1_1_add5                           Net                      -           -       0.314     -           5         
+d1.OCTANTCMB\.op_abs\.inf_abs0[1]         cycloneii_lcell_comb     datac       In      -         2.271       -         
+d1.OCTANTCMB\.op_abs\.inf_abs0[1]         cycloneii_lcell_comb     combout     Out     0.275     2.546       -         
+inf_abs0[1]                               Net                      -           -       0.730     -           1         
+d1.OCTANTCMB\.un38_state.lt1              cycloneii_lcell_comb     dataa       In      -         3.276       -         
+d1.OCTANTCMB\.un38_state.lt1              cycloneii_lcell_comb     cout        Out     0.414     3.690       -         
+lt_1                                      Net                      -           -       0.000     -           1         
+d1.OCTANTCMB\.un38_state.lt2              cycloneii_lcell_comb     cin         In      -         3.690       -         
+d1.OCTANTCMB\.un38_state.lt2              cycloneii_lcell_comb     cout        Out     0.129     3.819       -         
+lt_2                                      Net                      -           -       0.000     -           1         
+d1.OCTANTCMB\.un38_state.lt3              cycloneii_lcell_comb     cin         In      -         3.819       -         
+d1.OCTANTCMB\.un38_state.lt3              cycloneii_lcell_comb     cout        Out     0.129     3.948       -         
+lt_3                                      Net                      -           -       0.000     -           1         
+d1.OCTANTCMB\.un38_state.lt4              cycloneii_lcell_comb     cin         In      -         3.948       -         
+d1.OCTANTCMB\.un38_state.lt4              cycloneii_lcell_comb     cout        Out     0.129     4.077       -         
+lt_4                                      Net                      -           -       0.000     -           1         
+d1.OCTANTCMB\.un38_state.lt5              cycloneii_lcell_comb     cin         In      -         4.077       -         
+d1.OCTANTCMB\.un38_state.lt5              cycloneii_lcell_comb     combout     Out     0.410     4.487       -         
+lt5_1                                     Net                      -           -       0.355     -           1         
+d1.swap                                   SYNLPM_LATR1             DATA[0]     In      -         4.842       -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 2.763 is 0.977(35.3%) logic and 1.787(64.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+##### START OF AREA REPORT #####[
+Design view:work.vdp(rtl)
+Selecting part EP2C5Q208C6
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.
+
+Total combinational functions 592 of 4608 (12%)
+Logic element usage by number of inputs
+		  4 input functions 	 258
+		  3 input functions 	 183
+		  <=2 input functions 	 151
+Logic elements by mode
+		  normal mode            492
+		  arithmetic mode        100
+Total registers 189 of 4608 ( 4%)
+I/O pins 62 of 158 (39%), total I/O based on largest package of this part.
+
+Number of I/O registers
+			Input DDRs    :0
+			Output DDRs   :0
+
+DSP Blocks:     0  (0 nine-bit DSP elements).
+DSP Utilization: 0.00% of available 13 blocks (26 nine-bit).
+ShiftTap:       0  (0 registers)
+Ena:             0
+Sload:           0
+Sclr:            0
+Total ESB:      0 bits 
+
+LPM latches:    39
+
+##### END OF AREA REPORT #####]
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:08s; Memory used current: 49MB peak: 155MB)
+
+Process took 0h:00m:13s realtime, 0h:00m:08s cputime
+# Mon Mar 16 12:57:14 2015
+
+###########################################################]

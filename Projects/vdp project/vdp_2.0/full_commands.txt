@@ -1,0 +1,57 @@
+-- screen is initially cleared to white ('0') state
+-- 1.set the top half of the screen to black
+MW 0 32
+CB 54 54
+-- 2.draw a star with top part white and bottom part black
+MW 12 12
+DB 32 32
+MW 12 22
+DB 32 32
+MW 12 32
+DI 32 32
+MW 12 42
+DW 32 32
+MW 12 52
+DW 32 32
+MW 22 12
+DB 32 32
+MW 22 52
+DW 32 32
+MW 32 12
+DB 32 32
+MW 32 52
+DW 32 32
+MW 42 12
+DB 32 32
+MW 42 52
+DW 32 32
+MW 52 12
+DB 32 32
+MW 52 22
+DB 32 32
+MW 52 32
+DI 32 32
+MW 52 42
+DW 32 32
+MW 52 52
+DW 32 32
+-- 3.draw a black square
+MW 0 10
+CB 10 0
+-- 4.draw a white square
+MW 9 40
+CW 0 54
+-- 5.draw to invert colour lines in the black square
+MW 10 10
+DI 0 0
+MW 0 10
+DI 10 0
+-- 6.draw 2 consecutive black squares and larger square with inverting colour
+MW 15 0
+CB 20 5
+CB 25 10
+CI 15 0
+-- 7.draw 2 lines with consecutive draw commands
+MW 42 10
+DI 54 8
+DI 22 8

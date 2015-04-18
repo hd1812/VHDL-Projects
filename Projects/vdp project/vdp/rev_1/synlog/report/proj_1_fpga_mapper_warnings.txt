@@ -1,0 +1,2 @@
+@W: FF137 |Setting fanout limit to 16 
+@W: MT420 |Found inferred clock vdp|clk with period 1000.00ns. Please declare a user-defined clock on object "p:clk"

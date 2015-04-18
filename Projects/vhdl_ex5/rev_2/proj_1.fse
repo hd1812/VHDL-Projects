@@ -1,0 +1,48 @@
+
+fsm_encoding {1123292321} onehot
+
+fsm_state_encoding {1123292321} idle {0000000000}
+
+fsm_state_encoding {1123292321} drawoct {0000000011}
+
+fsm_state_encoding {1123292321} drawoct_pre {0000000101}
+
+fsm_state_encoding {1123292321} drawoct_1 {0000001001}
+
+fsm_state_encoding {1123292321} move {0000010001}
+
+fsm_state_encoding {1123292321} clear {0000100001}
+
+fsm_state_encoding {1123292321} clear_pre {0001000001}
+
+fsm_state_encoding {1123292321} clear_add {0010000001}
+
+fsm_state_encoding {1123292321} clear_1 {0100000001}
+
+fsm_state_encoding {1123292321} clearing {1000000001}
+
+fsm_registers {1123292321} {state[0]}  {state[1]}  {state[2]}  {state[3]}  {state[4]}  {state[5]}  {state[6]}  {state[7]}  {state[8]}  {state_i[9]} 
+
+fsm_encoding {12579572} sequential
+
+fsm_state_encoding {12579572} r3 {00}
+
+fsm_state_encoding {12579572} r2 {01}
+
+fsm_state_encoding {12579572} r1 {10}
+
+fsm_state_encoding {12579572} rx {11}
+
+fsm_registers {12579572} {rstate[1]}  {rstate[0]} 
+
+fsm_encoding {12429423} sequential
+
+fsm_state_encoding {12429423} m3 {00}
+
+fsm_state_encoding {12429423} m2 {01}
+
+fsm_state_encoding {12429423} m1 {10}
+
+fsm_state_encoding {12429423} mx {11}
+
+fsm_registers {12429423} {state[1]}  {state[0]} 

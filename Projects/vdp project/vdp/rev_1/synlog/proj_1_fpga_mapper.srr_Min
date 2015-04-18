@@ -1,0 +1,130 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Mar 25 21:05:23 2015
+#
+
+
+Top view:               vdp
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 2.310
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+vdp|clk            1.0 MHz       8.2 MHz       1000.000      121.350       470.600     inferred     Inferred_clkgroup_0
+=======================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise   |    fall  to  fall   |    rise  to  fall     |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack  |  constraint  slack  |  constraint  slack    |  constraint  slack
+-----------------------------------------------------------------------------------------------------------
+vdp|clk   vdp|clk  |  0.000       2.310  |  No paths    -      |  500.000     506.038  |  No paths    -    
+===========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: vdp|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                 Starting                                                         Arrival          
+Instance                         Reference     Type      Pin     Net                              Time        Slack
+                                 Clock                                                                             
+-------------------------------------------------------------------------------------------------------------------
+r1.cmd_type\.move                vdp|clk       dfm7a     q       r1.cmd_type\.move                2.572       2.310
+d1.SS_PROC\.hdb_pre[0]           vdp|clk       dfm7a     q       d1.SS_PROC\.hdb_pre[0]           3.203       2.940
+d1.SS_PROC\.hdb_pre[1]           vdp|clk       dfm7a     q       d1.SS_PROC\.hdb_pre[1]           3.203       2.940
+d1.OCT.DRAW1.R1\.xincr[5]        vdp|clk       dfm7a     q       d1.OCT.DRAW1.R1\.xincr[5]        3.728       3.465
+r1.store_ram\.rdout_par_0[0]     vdp|clk       dfm7a     q       r1.store_ram\.rdout_par_0[0]     3.728       3.465
+r1.store_ram\.rdout_par_0[1]     vdp|clk       dfm7a     q       r1.store_ram\.rdout_par_0[1]     3.728       3.465
+r1.store_ram\.rdout_par_1[0]     vdp|clk       dfm7a     q       r1.store_ram\.rdout_par_1[0]     3.728       3.465
+r1.store_ram\.rdout_par_1[1]     vdp|clk       dfm7a     q       r1.store_ram\.rdout_par_1[1]     3.728       3.465
+r1.store_ram\.rdout_par_2[0]     vdp|clk       dfm7a     q       r1.store_ram\.rdout_par_2[0]     3.728       3.465
+r1.store_ram\.rdout_par_2[1]     vdp|clk       dfm7a     q       r1.store_ram\.rdout_par_2[1]     3.728       3.465
+===================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                 Starting                                                         Required          
+Instance                         Reference     Type      Pin     Net                              Time         Slack
+                                 Clock                                                                              
+--------------------------------------------------------------------------------------------------------------------
+r1.rstate_h.rstate[1]            vdp|clk       dfm7a     s0      r1.cmd_type\.move                0.263        2.310
+d1.SS_PROC\.hdb_pre[0]           vdp|clk       dfm7a     d0      d1.SS_PROC\.hdb_pre[0]           0.263        2.940
+d1.SS_PROC\.hdb_pre[1]           vdp|clk       dfm7a     d0      d1.SS_PROC\.hdb_pre[1]           0.263        2.940
+d1.OCT.DRAW1.R1\.xincr[5]        vdp|clk       dfm7a     d1      d1.OCT.DRAW1.R1\.xincr[5]        0.263        3.465
+r1.store_ram\.rdout_par_0[0]     vdp|clk       dfm7a     d0      r1.store_ram\.rdout_par_0[0]     0.263        3.465
+r1.store_ram\.rdout_par_0[1]     vdp|clk       dfm7a     d0      r1.store_ram\.rdout_par_0[1]     0.263        3.465
+r1.store_ram\.rdout_par_1[0]     vdp|clk       dfm7a     d0      r1.store_ram\.rdout_par_1[0]     0.263        3.465
+r1.store_ram\.rdout_par_1[1]     vdp|clk       dfm7a     d0      r1.store_ram\.rdout_par_1[1]     0.263        3.465
+r1.store_ram\.rdout_par_2[0]     vdp|clk       dfm7a     d0      r1.store_ram\.rdout_par_2[0]     0.263        3.465
+r1.store_ram\.rdout_par_2[1]     vdp|clk       dfm7a     d0      r1.store_ram\.rdout_par_2[1]     0.263        3.465
+====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        2.572
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.263
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     2.310
+
+    Number of logic level(s):                0
+    Starting point:                          r1.cmd_type\.move / q
+    Ending point:                            r1.rstate_h.rstate[1] / s0
+    The start point is clocked by            vdp|clk [rising] on pin clk
+    The end   point is clocked by            vdp|clk [rising] on pin clk
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                      Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+r1.cmd_type\.move         dfm7a     q        Out     2.572     2.572       -         
+r1.cmd_type\.move         Net       -        -       -         -           1         
+r1.rstate_h.rstate[1]     dfm7a     s0       In      0.000     2.572       -         
+=====================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

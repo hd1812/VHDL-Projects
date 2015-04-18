@@ -1,0 +1,90 @@
+# vcom -work work -93 -explicit -check_synthesis -vopt H:/vhdl_ex0/f3_alu_comp_errors.vhd
+# Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity f3_alu
+# -- Compiling architecture rtl of f3_alu
+# 
+# 
+# vcom -work work -93 -explicit -vopt H:/vhdl_ex0/f3_alu_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity f3_alu_tb
+# -- Compiling architecture testbench of f3_alu_tb
+# -- Loading entity f3_alu
+# 
+# 
+# vcom -work work -93 -explicit -vopt H:/vhdl_ex0/f3_alu.vhd
+# Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity f3_alu
+# -- Compiling architecture rtl of f3_alu
+# 
+# 
+# vcom -work work -93 -explicit -vopt H:/vhdl_ex0/f3_alu_sim_errors.vhd
+# Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity f3_alu
+# -- Compiling architecture rtl of f3_alu
+# 
+# 
+# 4 compiles, 0 failed with no errors. 
+vsim -gui work.f3_alu_tb
+# vsim -gui work.f3_alu_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# ** Warning: (vopt-13) Recompile work.f3_alu_tb(testbench) because work.f3_alu has changed.
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.f3_alu_tb(testbench)#1
+add wave -position insertpoint sim:/f3_alu_tb/*
+run -all
+# ** Note: Starting Test 0, Y=3, F=3
+#    Time: 50 ns  Iteration: 2  Instance: /f3_alu_tb
+# ** Note: test 0 PASSED.
+#    Time: 200 ns  Iteration: 2  Instance: /f3_alu_tb
+# ** Note: Starting Test 1, Y=13, F=7
+#    Time: 200 ns  Iteration: 2  Instance: /f3_alu_tb
+# ** Note: test 1 PASSED.
+#    Time: 300 ns  Iteration: 2  Instance: /f3_alu_tb
+# ** Note: Starting Test 2, Y=0, F=0
+#    Time: 300 ns  Iteration: 2  Instance: /f3_alu_tb
+# ** Note: test 2 PASSED.
+#    Time: 400 ns  Iteration: 2  Instance: /f3_alu_tb
+# ** Note: Starting Test 3, Y=123, F=1
+#    Time: 400 ns  Iteration: 2  Instance: /f3_alu_tb
+# ** Note: test 3 PASSED.
+#    Time: 500 ns  Iteration: 2  Instance: /f3_alu_tb
+# ** Failure: All tests finished OK, terminating with failure ASSERT.
+#    Time: 500 ns  Iteration: 2  Process: /f3_alu_tb/p3_test File: H:/vhdl_ex0/f3_alu_tb.vhd
+# Break in Process p3_test at H:/vhdl_ex0/f3_alu_tb.vhd line 105
+add dataflow sim:/f3_alu_tb/p3_test/*
+add dataflow sim:/f3_alu_tb/*
+quit -sim
+vsim -gui work.f3_alu
+# vsim -gui work.f3_alu 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.f3_alu(rtl)#1
+add wave -position insertpoint sim:/f3_alu/*
+# Load canceled
+run -all
+quit -sim

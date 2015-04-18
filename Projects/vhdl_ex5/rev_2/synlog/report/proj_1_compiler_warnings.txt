@@ -1,0 +1,15 @@
+@W: CD623 :"H:\vdp\utility_pack.vhd":357:19:357:23|Shared Variables in packages are not recommended.
+@W: CL117 :"H:\vdp\db.vhd":262:2:262:3|Latch generated from process for signal swap; possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":430:2:430:3|Latch generated from process for signal dbb.Y(5 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":430:2:430:3|Latch generated from process for signal dbb.X(5 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":339:4:339:7|Latch generated from process for signal dbb.rcb_cmd(2 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":262:2:262:3|Latch generated from process for signal negy; possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":262:2:262:3|Latch generated from process for signal negx; possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":300:6:300:7|Latch generated from process for signal ynew(5 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":300:6:300:7|Latch generated from process for signal xnew(5 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":339:4:339:7|Latch generated from process for signal sel; possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":339:4:339:7|Latch generated from process for signal yhold(5 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":339:4:339:7|Latch generated from process for signal xhold(5 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":339:4:339:7|Latch generated from process for signal pen(1 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":339:4:339:7|Latch generated from process for signal cmd(1 downto 0); possible missing assignment in an if or case statement.
+

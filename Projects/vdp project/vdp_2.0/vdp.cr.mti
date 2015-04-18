@@ -1,0 +1,112 @@
+H:/vdp/db.vhd {1 {vcom -work work -93 -explicit -check_synthesis -O0 -cover sbcefx1 -vopt H:/vdp/db.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity draw_octant
+-- Compiling architecture comb of draw_octant
+-- Compiling entity SWAP
+-- Compiling architecture s1 of SWAP
+-- Compiling entity INVER
+-- Compiling architecture i1 of INVER
+-- Loading entity INVER
+-- Loading entity SWAP
+-- Loading entity draw_octant
+-- Compiling entity draw_any_octant
+-- Compiling architecture comb of draw_any_octant
+-- Loading package config_pack
+-- Loading package project_pack
+-- Loading entity draw_any_octant
+-- Compiling entity db
+-- Compiling architecture rtl of db
+
+} {} {}} H:/vdp/vram.vhd {2 {vcom -work work -93 -explicit -check_synthesis -O0 -cover sbcefx1 -vopt H:/vdp/vram.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utility_pack
+-- Loading package config_pack
+-- Loading package vdp_pack
+-- Compiling entity vram
+-- Compiling architecture behav of vram
+** Warning: H:/vdp/vram.vhd(75): (vcom-1401) Synthesis Warning: Signal "ram_write_detect" is in the sensitivity list but is not read in the process.
+
+
+} {} {}} H:/vdp/utility_pack.vhd {1 {vcom -work work -93 -explicit -check_synthesis -O0 -cover sbcefx1 -vopt H:/vdp/utility_pack.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package utility_pack
+-- Compiling package body utility_pack
+-- Loading package utility_pack
+
+} {} {}} H:/vdp/vdp.vhd {1 {vcom -work work -93 -explicit -check_synthesis -O0 -cover sbcefx1 -vopt H:/vdp/vdp.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package config_pack
+-- Loading package NUMERIC_STD
+-- Loading package project_pack
+-- Compiling entity vdp
+-- Compiling architecture rtl of vdp
+-- Loading entity INVER
+-- Loading entity SWAP
+-- Loading entity draw_octant
+-- Loading entity draw_any_octant
+-- Loading entity db
+-- Loading entity rcb
+
+} {} {}} H:/vdp/config_pack.vhd {1 {vcom -work work -93 -explicit -check_synthesis -O0 -cover sbcefx1 -vopt H:/vdp/config_pack.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package config_pack
+
+} {} {}} H:/vdp/vdp_pack.vhd {1 {vcom -work work -93 -explicit -check_synthesis -O0 -cover sbcefx1 -vopt H:/vdp/vdp_pack.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utility_pack
+-- Loading package config_pack
+-- Compiling package vdp_pack
+-- Compiling package body vdp_pack
+-- Loading package vdp_pack
+
+} {} {}} H:/vdp/vdp_testbench.vhd {1 {vcom -work work -93 -explicit -check_synthesis -O0 -cover sbcefx1 -vopt H:/vdp/vdp_testbench.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utility_pack
+-- Loading package config_pack
+-- Loading package vdp_pack
+-- Compiling entity vdp_testbench
+-- Compiling architecture behav of vdp_testbench
+-- Loading entity vram
+-- Loading package std_logic_arith
+-- Loading package project_pack
+-- Loading entity vdp
+
+} {} {}} H:/vdp/project_pack.vhd {1 {vcom -work work -93 -explicit -check_synthesis -O0 -cover sbcefx1 -vopt H:/vdp/project_pack.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package config_pack
+-- Loading package NUMERIC_STD
+-- Compiling package project_pack
+-- Compiling package body project_pack
+-- Loading package project_pack
+
+} {} {}}

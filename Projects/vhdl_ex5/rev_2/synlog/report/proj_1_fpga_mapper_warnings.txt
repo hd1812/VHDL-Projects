@@ -1,0 +1,16 @@
+@W: MO171 :"h:\vdp\db.vhd":339:4:339:7|Sequential instance d1.dbb\.rcb_cmd[2] reduced to a combinational gate by constant propagation 
+@W: MO171 :"h:\vdp\db.vhd":339:4:339:7|Sequential instance d1.dbb\.rcb_cmd[1] reduced to a combinational gate by constant propagation 
+@W: MO171 :"h:\vdp\db.vhd":339:4:339:7|Sequential instance d1.dbb\.rcb_cmd[0] reduced to a combinational gate by constant propagation 
+@W: MO171 :"h:\vdp\db.vhd":339:4:339:7|Sequential instance d1.sel reduced to a combinational gate by constant propagation 
+@W: MT462 :"h:\vdp\db.vhd":342:20:342:51|Net d1.cmd_0_sqmuxa appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":232:9:232:13|Net d1.nstate_1_sqmuxa appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":279:31:279:50|Net d1.xnew_1_sqmuxa_1 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":430:5:430:22|Net d1.dbb\.X_1_sqmuxa_1 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":339:4:339:7|Net d1.un1_pen_6 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":339:4:339:7|Net d1.un1_state_4 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT337 |Time borrowing decreased slack from -1.9402 ns  to -2.2163 ns.  
+@W: MT462 :"h:\vdp\db.vhd":232:9:232:13|Net d1.nstate_1_sqmuxa_0_a2 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":339:4:339:7|Net d1.un1_pen_6_x appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":430:5:430:22|Net d1.X_1_sqmuxa_1 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":342:20:342:51|Net d1.cmd_0_sqmuxa_0_a2_0_x appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT420 |Found inferred clock vdp|clk with period 9.39ns. Please declare a user-defined clock on object "p:clk"

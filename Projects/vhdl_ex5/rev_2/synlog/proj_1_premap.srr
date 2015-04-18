@@ -1,0 +1,52 @@
+Synopsys Altera Technology Pre-mapping, Version maprc, Build 1911R, Built Nov 26 2013 22:30:01
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@L: H:\vhdl_ex5\rev_2\proj_1_scck.rpt 
+Printing clock  summary report in "H:\vhdl_ex5\rev_2\proj_1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+@W: FA109 :"h:\vdp\db.vhd":117:7:117:9|Changing sub-design name INV to INV_synplcty to avoid name collision with Altera primitive, LPM name or Verilog reserved word. 
+
+Finished Clear Box Flow. (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+@W: FA401 |Found flip-flop with unsupported asynchronous set. Implemented set functionality by creating a latch.
+@W: MT462 :"h:\vdp\db.vhd":342:20:342:51|Net d1.cmd_0_sqmuxa appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":232:9:232:13|Net d1.nstate_1_sqmuxa appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":279:31:279:50|Net d1.xnew_1_sqmuxa_1 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":430:5:430:22|Net d1.dbb\.X_1_sqmuxa_1 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":339:4:339:7|Net d1.un1_pen_6 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":339:4:339:7|Net d1.un1_state_4 appears to be an unidentified clock source. Assuming default frequency. 
+
+
+Clock Summary
+**************
+
+Start       Requested     Requested     Clock        Clock                
+Clock       Frequency     Period        Type         Group                
+--------------------------------------------------------------------------
+System      401.2 MHz     2.493         system       system_clkgroup      
+vdp|clk     4.2 MHz       240.831       inferred     Autoconstr_clkgroup_0
+==========================================================================
+
+@W: MT531 :"h:\vdp\db.vhd":339:4:339:7|Found signal identified as System clock which controls 55 sequential elements including d1.sel.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"h:\vdp\db.vhd":21:9:21:34|Found inferred clock vdp|clk which controls 172 sequential elements including d1.OCT.DRAW1.R1\.error[5:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file H:\vhdl_ex5\rev_2\proj_1.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 51MB peak: 116MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 16 12:57:00 2015
+
+###########################################################]

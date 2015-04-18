@@ -1,0 +1,2 @@
+@W: CD623 :"H:\vdp\utility_pack.vhd":357:19:357:23|Shared Variables in packages are not recommended.
+

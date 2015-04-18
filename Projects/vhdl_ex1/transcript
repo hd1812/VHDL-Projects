@@ -1,0 +1,69 @@
+vsim -gui work.draw_octant_tb
+# vsim -gui work.draw_octant_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ex1_data_pak
+# Loading work.draw_octant_tb(behav)#1
+add wave -position insertpoint sim:/draw_octant_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: hd1812  Hostname: EEWS303A-008  ProcessID: 6380
+# 
+#           Attempting to use alternate WLF file "./wlftgy7k35".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftgy7k35
+# 
+run -all
+# ** Note: Drawing line from (2,3)
+#    Time: 50 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 0  reset. X=0, Y=0, DONE=0 OK!
+#    Time: 150 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Drawing line to (5,3)
+#    Time: 150 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: xbias = 0
+#    Time: 150 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 1  start. X=2, Y=3, DONE=0 OK!
+#    Time: 250 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 2  drawing. X=2, Y=3, DONE=0 OK!
+#    Time: 650 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 3  drawing. X=3, Y=3, DONE=0 OK!
+#    Time: 750 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 4  drawing. X=4, Y=3, DONE=0 OK!
+#    Time: 850 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 5  done. X=5, Y=3, DONE=1 OK!
+#    Time: 950 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Drawing line from (5,3)
+#    Time: 950 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 6  reset. X=5, Y=3, DONE=0 OK!
+#    Time: 1050 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Drawing line to (9,4)
+#    Time: 1050 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: xbias = 1
+#    Time: 1050 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 7  start. X=5, Y=3, DONE=0 OK!
+#    Time: 1150 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 8  drawing. X=5, Y=3, DONE=0 OK!
+#    Time: 1250 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 9  drawing. X=6, Y=3, DONE=0 OK!
+#    Time: 1350 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 10  drawing. X=7, Y=3, DONE=0 OK!
+#    Time: 1450 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 11  drawing. X=8, Y=4, DONE=0 OK!
+#    Time: 1550 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Note: Cycle 12  done. X=9, Y=4, DONE=1 OK!
+#    Time: 1650 ns  Iteration: 1  Instance: /draw_octant_tb
+# ** Failure: All tests finished OK, terminating with failure ASSERT.
+#    Time: 1650 ns  Iteration: 1  Process: /draw_octant_tb/p3_test File: H:/vhdl_ex1/draw_octant_tb.vhd
+# Break in Process p3_test at H:/vhdl_ex1/draw_octant_tb.vhd line 127
+# Causality operation skipped due to absense of debug database file
+quit -sim
+project open H:/vhdl_ex2/vhdl_ex2

@@ -1,0 +1,2 @@
+CKID0001:@|S:clk_in@|E:r1.clear.draw_or_clear_old_ret_2@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+conv_instances:@|F:@syn_gc_converted==1@|M:instances

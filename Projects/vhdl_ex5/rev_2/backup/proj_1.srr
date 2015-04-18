@@ -1,0 +1,37 @@
+#Build: Synplify Premier I-2013.09-SP1 , Build 704R, Nov 22 2013
+#install: C:\EEE\Synopsys\fpga_I-2013.09-SP1
+#OS: Windows 7 6.1
+#Hostname: EEWS303A-029
+
+#Implementation: rev_2
+
+$ Start of Compile
+#Mon Mar 16 12:14:50 2015
+
+Synopsys VHDL Compiler, version comp201309rcp1, Build 042R, built Nov 24 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"H:\vdp\vdp.vhd":11:7:11:9|Top entity is set to vdp.
+@W: CD623 :"H:\vdp\utility_pack.vhd":357:19:357:23|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":30:19:30:26|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":31:19:31:32|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":46:19:46:25|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":47:19:47:24|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":48:19:48:25|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":49:19:49:26|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":118:17:118:23|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":118:26:118:32|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":119:17:119:25|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":149:19:149:23|Shared Variables in packages are not recommended.
+@W: CD623 :"H:\vdp\vdp_pack.vhd":150:19:150:23|Shared Variables in packages are not recommended.
+VHDL syntax check successful!
+@E: CD371 :"H:\vdp\vdp_pack.vhd":23:28:23:57|No matching overload for "*"
+@E: CD371 :"H:\vdp\vdp_pack.vhd":23:28:23:57|No matching overload for "*"
+@E: CD676 :"H:\vdp\vdp_pack.vhd":23:28:23:57|Can't implement expression (no function signature?)
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 16 12:14:50 2015
+
+###########################################################]

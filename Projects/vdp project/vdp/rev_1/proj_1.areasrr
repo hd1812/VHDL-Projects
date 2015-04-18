@@ -1,0 +1,199 @@
+----------------------------------------------------------------------
+Report for cell vdp.rtl
+                                          Cell usage:
+                               cell       count     area    count*area
+                               buff         2       0.0        0.0
+                             clkbuf         1       0.0        0.0
+                               db_0         1       0.0        0.0
+                                gnd         1       0.0        0.0
+                              inbuf        34       0.0        0.0
+                             outbuf        27       0.0        0.0
+                              rcb_0         1       0.0        0.0
+                                vcc         1       0.0        0.0
+                            
+                         TOTAL             68                  0.0
+----------------------------------------------------------------------
+Report for cell rcb_0.netlist
+  Original Cell name rcb
+     Instance path:  r1
+                                          Cell usage:
+                               cell       count     area    count*area
+                              and2b         1       0.0        0.0
+                              and3c         1       0.0        0.0
+                               and4         2       0.0        0.0
+                              and4a         3       0.0        0.0
+                              and4b         3       0.0        0.0
+                              and4c         1       0.0        0.0
+                                cm8        59       0.0        0.0
+                              dfe1b         5       0.0        0.0
+                              dfe1c        24       0.0        0.0
+                              dfm7a        44       0.0        0.0
+                               or2a         1       0.0        0.0
+                                or3         1       0.0        0.0
+                               or3b         1       0.0        0.0
+           rcb_cell_rstate_0_3__h_0         1       0.0        0.0
+            rcb_cell_state_0_3__h_0         1       0.0        0.0
+                              xnor2         5       0.0        0.0
+                               xor2         3       0.0        0.0
+                            
+                         TOTAL            156                  0.0
+----------------------------------------------------------------------
+Report for cell rcb_cell_state_0_3__h_0.netlist
+  Original Cell name rcb_cell_state_0_3__h
+     Instance path:  r1.state_h
+                                          Cell usage:
+                               cell       count     area    count*area
+                              and2b         2       0.0        0.0
+                              and3b         1       0.0        0.0
+                              and4c         1       0.0        0.0
+                                cm8         1       0.0        0.0
+                              dfm7a         2       0.0        0.0
+                               or2a         1       0.0        0.0
+                               or2b         1       0.0        0.0
+                               xor2         1       0.0        0.0
+                            
+                         TOTAL             10                  0.0
+----------------------------------------------------------------------
+Report for cell rcb_cell_rstate_0_3__h_0.netlist
+  Original Cell name rcb_cell_rstate_0_3__h
+     Instance path:  r1.rstate_h
+                                          Cell usage:
+                               cell       count     area    count*area
+                              and2a         1       0.0        0.0
+                                cm8         2       0.0        0.0
+                               df1a         1       0.0        0.0
+                              dfm7a         1       0.0        0.0
+                            
+                         TOTAL              5                  0.0
+----------------------------------------------------------------------
+Report for cell db_0.netlist
+  Original Cell name db
+     Instance path:  d1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               and2         7       0.0        0.0
+                              and2a         2       0.0        0.0
+                              and2b         5       0.0        0.0
+                               and3         1       0.0        0.0
+                              and3b         1       0.0        0.0
+                              and3c         1       0.0        0.0
+                               and4         1       0.0        0.0
+                              and4a         3       0.0        0.0
+                              and4c         1       0.0        0.0
+                                cm8        98       0.0        0.0
+                               cy2a        10       0.0        0.0
+                              dfe1b         6       0.0        0.0
+                              dfm7a        29       0.0        0.0
+                  draw_any_octant_0         1       0.0        0.0
+                                inv        25       0.0        0.0
+                               maj3         9       0.0        0.0
+                                or2         4       0.0        0.0
+                               or2a         2       0.0        0.0
+                                xa1         3       0.0        0.0
+                              xnor2        32       0.0        0.0
+                               xor2        48       0.0        0.0
+                            
+                         TOTAL            289                  0.0
+----------------------------------------------------------------------
+Report for cell draw_any_octant_0.netlist
+  Original Cell name draw_any_octant
+     Instance path:  d1.OCT
+                                          Cell usage:
+                               cell       count     area    count*area
+                       INVER_INV1_0         1       0.0        0.0
+                       INVER_INV2_0         1       0.0        0.0
+                       INVER_INV3_0         1       0.0        0.0
+                       INVER_INV4_0         1       0.0        0.0
+                       SWAP_SWAP1_0         1       0.0        0.0
+                       SWAP_SWAP2_0         1       0.0        0.0
+                              dfm7a         3       0.0        0.0
+                      draw_octant_0         1       0.0        0.0
+                            
+                         TOTAL             10                  0.0
+----------------------------------------------------------------------
+Report for cell draw_octant_0.netlist
+  Original Cell name draw_octant
+     Instance path:  d1.OCT.DRAW1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               and2         3       0.0        0.0
+                              and2a        15       0.0        0.0
+                               and3         2       0.0        0.0
+                              and3a         2       0.0        0.0
+                              and3b         2       0.0        0.0
+                               and4         1       0.0        0.0
+                              and4a         1       0.0        0.0
+                              and4c         1       0.0        0.0
+                                cm8        85       0.0        0.0
+                               cy2a        14       0.0        0.0
+                              dfe1b        24       0.0        0.0
+                              dfm7a        18       0.0        0.0
+                                inv        21       0.0        0.0
+                               maj3        14       0.0        0.0
+                               or2b         1       0.0        0.0
+                               or3b         1       0.0        0.0
+                               or3c         1       0.0        0.0
+                                or4         1       0.0        0.0
+                                xa1         1       0.0        0.0
+                              xnor2        30       0.0        0.0
+                               xor2        45       0.0        0.0
+                            
+                         TOTAL            283                  0.0
+----------------------------------------------------------------------
+Report for cell INVER_INV4_0.netlist
+  Original Cell name INVER_INV4
+     Instance path:  d1.OCT.INV4
+                                          Cell usage:
+                               cell       count     area    count*area
+                              xnor2         1       0.0        0.0
+                               xor2         5       0.0        0.0
+                            
+                         TOTAL              6                  0.0
+----------------------------------------------------------------------
+Report for cell INVER_INV3_0.netlist
+  Original Cell name INVER_INV3
+     Instance path:  d1.OCT.INV3
+                                          Cell usage:
+                               cell       count     area    count*area
+                              xnor2         1       0.0        0.0
+                               xor2         5       0.0        0.0
+                            
+                         TOTAL              6                  0.0
+----------------------------------------------------------------------
+Report for cell SWAP_SWAP2_0.netlist
+  Original Cell name SWAP_SWAP2
+     Instance path:  d1.OCT.SWAP2
+                                          Cell usage:
+                               cell       count     area    count*area
+                                cm8        12       0.0        0.0
+                            
+                         TOTAL             12                  0.0
+----------------------------------------------------------------------
+Report for cell INVER_INV2_0.netlist
+  Original Cell name INVER_INV2
+     Instance path:  d1.OCT.INV2
+                                          Cell usage:
+                               cell       count     area    count*area
+                                cm8         5       0.0        0.0
+                               xor2         1       0.0        0.0
+                            
+                         TOTAL              6                  0.0
+----------------------------------------------------------------------
+Report for cell INVER_INV1_0.netlist
+  Original Cell name INVER_INV1
+     Instance path:  d1.OCT.INV1
+                                          Cell usage:
+                               cell       count     area    count*area
+                                cm8         5       0.0        0.0
+                            
+                         TOTAL              5                  0.0
+----------------------------------------------------------------------
+Report for cell SWAP_SWAP1_0.netlist
+  Original Cell name SWAP_SWAP1
+     Instance path:  d1.OCT.SWAP1
+                                          Cell usage:
+                               cell       count     area    count*area
+                                cm8        12       0.0        0.0
+                               xor2         2       0.0        0.0
+                            
+                         TOTAL             14                  0.0

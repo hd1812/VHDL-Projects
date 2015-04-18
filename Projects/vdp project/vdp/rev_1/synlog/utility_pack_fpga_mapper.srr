@@ -1,0 +1,294 @@
+Synopsys Microsemi Technology Mapper, Version maprc, Build 1911R, Built Nov 26 2013 22:12:33
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09-SP1 
+@W: FF137 |Setting fanout limit to 16 
+@W: BN119 |Global frequency too slow at 0.100MHz, resetting it to 1MHz(1000ns)
+@N: MF248 |Running in 64-bit mode.
+List of partitions to map:
+   view:work.vdp(rtl)
+@N:"h:\vdp\db.vhd":21:13:21:14|Found counter in view:work.draw_octant(comb) inst R1\.y1[5:0]
+@N:"h:\vdp\db.vhd":21:9:21:10|Found counter in view:work.draw_octant(comb) inst R1\.x1[5:0]
+@N:"h:\vdp\rcb.vhd":56:9:56:13|Found counter in view:work.rcb(rtl1) inst rcb_clk_pos\.timer[4:0]
+Encoding state machine state_h.state[0:3] (view:work.rcb(rtl1))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+Encoding state machine rstate_h.rstate[0:3] (view:work.rcb(rtl1))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+Auto Dissolve of R1\.un15_disable.ltmid (inst of view:act_mac.lt4(act2))
+Auto Dissolve of R1\.un15_disable.lt (inst of view:act_mac.lt3ci(act2))
+Auto Dissolve of I_37.s2 (inst of view:act_mac.xor_and21(act2))
+Auto Dissolve of I_36.s3 (inst of view:act_mac.xor_and21(act2))
+Auto Dissolve of I_36.s2 (inst of view:act_mac.xor_and21(act2))
+Auto Dissolve of I_20.s2 (inst of view:act_mac.xor_and21(act2))
+Auto Dissolve of I_19.s3 (inst of view:act_mac.xor_and21(act2))
+Auto Dissolve of I_19.s2 (inst of view:act_mac.xor_and21(act2))
+Auto Dissolve of OCTANTCMB\.un19_state.ltmid (inst of view:act_mac.lt3(act2))
+Auto Dissolve of OCTANTCMB\.un19_state.lt (inst of view:act_mac.lt3ci(act2))
+Auto Dissolve of OCTANTCMB\.un15_state.ltmid (inst of view:act_mac.lt3(act2))
+Auto Dissolve of OCTANTCMB\.un15_state.lt (inst of view:act_mac.lt3ci(act2))
+Auto Dissolve of OCTANTCMB\.un81_state.ltmid (inst of view:act_mac.lt3(act2))
+Auto Dissolve of OCTANTCMB\.un81_state.lt (inst of view:act_mac.lt3ci(act2))
+Auto Dissolve of OCTANTCMB\.un45_state.ltmid (inst of view:act_mac.lt3(act2))
+Auto Dissolve of OCTANTCMB\.un45_state.lt (inst of view:act_mac.lt3ci(act2))
+Auto Dissolve of OCTANTCMB\.un36_state.ltmid (inst of view:act_mac.lt3(act2))
+Auto Dissolve of OCTANTCMB\.un36_state.lt (inst of view:act_mac.lt3ci(act2))
+Auto Dissolve of OCTANTCMB\.un162_state.ltmid (inst of view:act_mac.lt3(act2))
+Auto Dissolve of OCTANTCMB\.un162_state.lt (inst of view:act_mac.lt3ci(act2))
+Auto Dissolve of OCTANTCMB\.un90_state.ltmid (inst of view:act_mac.lt3(act2))
+Auto Dissolve of OCTANTCMB\.un90_state.lt (inst of view:act_mac.lt3ci(act2))
+Auto Dissolve of OCTANTCMB\.un54_state.ltmid (inst of view:act_mac.lt3(act2))
+Auto Dissolve of OCTANTCMB\.un54_state.lt (inst of view:act_mac.lt3ci(act2))
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                               Fanout, notes
+----------------------------------------------------------------------
+d1.OCTANTCMB.un54_state.ltmid.dbb.X[1] / y               19           
+d1.OCTANTCMB.un54_state.ltmid.dbb.Y[0] / y               24           
+r1.dbb_delaycmd / y                                      21           
+r1.same_word_1 / y                                       35           
+d1.OCTANTCMB.un54_state.ltmid.dbb.startcmd_i_a2 / y      32           
+d1.OCTANTCMB.un54_state.ltmid.HDBCMB.un1_state / y       22           
+d1.OCT.DRAW1.R1.un15_disable.ltmid.y1_0_sqmuxa / y       35           
+d1.OCT.DRAW1.R1.un15_disable.ltmid.xnew_0_sqmuxa / y     25           
+reset_pad / y                                            60           
+r1.state_h.state_s0_0_a2 / y                             19           
+d1.OCTANTCMB.un54_state.ltmid.dbb.X_sn_m1_n / y          24           
+======================================================================
+
+Replicating Combinational Instance d1.OCTANTCMB.un54_state.ltmid.dbb.X_sn_m1_n, fanout 22 segments 2
+Replicating Combinational Instance r1.state_h.state_s0_0_a2, fanout 19 segments 2
+Replicating Combinational Instance d1.OCT.DRAW1.R1.un15_disable.ltmid.xnew_0_sqmuxa, fanout 25 segments 2
+Replicating Combinational Instance d1.OCT.DRAW1.R1.un15_disable.ltmid.y1_0_sqmuxa, fanout 35 segments 3
+Replicating Combinational Instance d1.OCTANTCMB.un54_state.ltmid.HDBCMB.un1_state, fanout 21 segments 2
+Replicating Combinational Instance d1.OCTANTCMB.un54_state.ltmid.dbb.startcmd_i_a2, fanout 33 segments 3
+Replicating Combinational Instance r1.same_word_1, fanout 35 segments 3
+Replicating Combinational Instance r1.dbb_delaycmd, fanout 22 segments 2
+Replicating Combinational Instance d1.OCTANTCMB.un54_state.ltmid.dbb.Y[0], fanout 24 segments 2
+Replicating Combinational Instance d1.OCTANTCMB.un54_state.ltmid.dbb.X[1], fanout 19 segments 2
+Replicating Combinational Instance d1.OCTANTCMB.un54_state.ltmid.resetx_0, fanout 17 segments 2
+Buffering reset_c, fanout 42 segments 3
+
+Added 2 Buffers
+Added 14 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 14 Combinational Cells via replication
+---------------------------------------
+Synthesized design as a chip
+Resource Usage Report of vdp 
+
+Target Part: a3265dx-2
+Combinational Cells:    637 of 475 (134%)
+Sequential Cells:    157 of 510 (31%)
+Total Cells:         794 of 985 (81%)
+DSP Blocks:          0
+Clock Buffers:       1
+IO Cells:            62
+
+Details:
+   and2:           10	comb:1
+   and2a:          18	comb:1
+   and2b:          8	comb:1
+   and3:           3	comb:1
+   and3a:          2	comb:1
+   and3b:          4	comb:1
+   and3c:          2	comb:1
+   and4:           4	comb:1
+   and4a:          7	comb:1
+   and4b:          3	comb:1
+   and4c:          4	comb:1
+   buff:           2	comb:1
+   cm8:            279	comb:1
+   cy2a:           24	comb:1
+   inv:            46	comb:1
+   maj3:           23	comb:1
+   or2:            4	comb:1
+   or2a:           4	comb:1
+   or2b:           2	comb:1
+   or3:            1	comb:1
+   or3b:           2	comb:1
+   or3c:           1	comb:1
+   or4:            1	comb:1
+   xa1:            4	comb:1
+   xnor2:          69	comb:1
+   xor2:           110	comb:1
+
+   df1a:           1	seq:1
+   dfe1b:          35	seq:1
+   dfe1c:          24	seq:1
+   dfm7a:          97	seq:1
+
+   clkbuf:         1	clock buffer
+   inbuf:          34	
+   outbuf:         27	
+
+   false:          1	
+   true:           1	
+@W: MT420 |Found inferred clock vdp|clk with period 1000.00ns. Please declare a user-defined clock on object "p:clk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Mar 25 21:04:14 2015
+#
+
+
+Top view:               vdp
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 470.600
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+vdp|clk            1.0 MHz       8.2 MHz       1000.000      121.350       470.600     inferred     Inferred_clkgroup_0
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise     |    fall  to  fall   |    rise  to  fall     |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack    |  constraint  slack  |  constraint  slack    |  constraint  slack
+-------------------------------------------------------------------------------------------------------------
+vdp|clk   vdp|clk  |  1000.000    878.650  |  No paths    -      |  500.000     470.600  |  No paths    -    
+=============================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: vdp|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                 Arrival            
+Instance                   Reference     Type      Pin     Net                      Time        Slack  
+                           Clock                                                                       
+-------------------------------------------------------------------------------------------------------
+d1.SS_PROC\.state[0]       vdp|clk       dfm7a     q       d1.SS_PROC\.state[0]     6.600       470.600
+d1.SS_PROC\.state[4]       vdp|clk       dfm7a     q       d1.SS_PROC\.state[4]     6.300       470.900
+d1.SS_PROC\.state[6]       vdp|clk       dfm7a     q       d1.SS_PROC\.state[6]     6.000       473.000
+d1.OCT.R1\.swapxy1         vdp|clk       dfm7a     q       d1.OCT.R1\.swapxy1       8.100       477.200
+d1.OCT.DRAW1.R1\.x1[4]     vdp|clk       dfe1b     q       d1.OCT.xout2[4]          6.600       478.700
+d1.OCT.DRAW1.R1\.y1[4]     vdp|clk       dfe1b     q       d1.OCT.yout2[4]          6.600       478.700
+d1.OCT.DRAW1.R1\.x1[2]     vdp|clk       dfe1b     q       d1.OCT.xout2[2]          6.900       479.150
+d1.OCT.DRAW1.R1\.x1[3]     vdp|clk       dfe1b     q       d1.OCT.xout2[3]          6.900       479.150
+d1.OCT.DRAW1.R1\.y1[2]     vdp|clk       dfe1b     q       d1.OCT.yout2[2]          6.900       479.150
+d1.OCT.DRAW1.R1\.y1[3]     vdp|clk       dfe1b     q       d1.OCT.yout2[3]          6.600       479.450
+=======================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                       Required            
+Instance        Reference     Type      Pin     Net            Time         Slack  
+                Clock                                                              
+-----------------------------------------------------------------------------------
+r1.vaddr[2]     vdp|clk       dfe1c     d       dbb\.X[4]      499.625      470.600
+r1.vaddr[0]     vdp|clk       dfe1c     d       dbb\.X[2]      499.625      471.350
+r1.vaddr[1]     vdp|clk       dfe1c     d       dbb\.X[3]      499.625      471.350
+r1.vaddr[3]     vdp|clk       dfe1c     d       dbb\.X[5]      499.625      471.350
+r1.vaddr[4]     vdp|clk       dfe1c     d       dbb\.Y[2]      499.625      471.350
+r1.vaddr[5]     vdp|clk       dfe1c     d       dbb\.Y[3]      499.625      471.350
+r1.vaddr[6]     vdp|clk       dfe1c     d       dbb\.Y[4]      499.625      471.350
+r1.vaddr[7]     vdp|clk       dfe1c     d       dbb\.Y[5]      499.625      471.350
+r1.vdin[0]      vdp|clk       dfe1c     e       vwrite_c_0     499.625      485.525
+r1.vdin[1]      vdp|clk       dfe1c     e       vwrite_c_0     499.625      485.525
+===================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      500.000
+    - Setup time:                            0.375
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         499.625
+
+    - Propagation time:                      29.025
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     470.600
+
+    Number of logic level(s):                3
+    Starting point:                          d1.SS_PROC\.state[0] / q
+    Ending point:                            r1.vaddr[2] / d
+    The start point is clocked by            vdp|clk [rising] on pin clk
+    The end   point is clocked by            vdp|clk [falling] on pin clk
+
+Instance / Net                                                  Pin      Pin               Arrival     No. of    
+Name                                                  Type      Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+d1.SS_PROC\.state[0]                                  dfm7a     q        Out     6.600     6.600       -         
+d1.SS_PROC\.state[0]                                  Net       -        -       -         -           9         
+d1.OCTANTCMB\.un54_state.ltmid.dbb\.startcmd_i_a2     and2b     a        In      0.000     6.600       -         
+d1.OCTANTCMB\.un54_state.ltmid.dbb\.startcmd_i_a2     and2b     y        Out     9.000     15.600      -         
+r1.dbb_i_3[15]                                        Net       -        -       -         -           15        
+d1.OCTANTCMB\.un54_state.ltmid.dbb\.X_sn_m1_n         or2a      a        In      0.000     15.600      -         
+d1.OCTANTCMB\.un54_state.ltmid.dbb\.X_sn_m1_n         or2a      y        Out     8.100     23.700      -         
+d1.dbb\.X_sn_N_2_n                                    Net       -        -       -         -           13        
+d1.OCTANTCMB\.un54_state.ltmid.dbb\.X[4]              cm8       s00      In      0.000     23.700      -         
+d1.OCTANTCMB\.un54_state.ltmid.dbb\.X[4]              cm8       y        Out     5.325     29.025      -         
+dbb\.X[4]                                             Net       -        -       -         -           3         
+r1.vaddr[2]                                           dfe1c     d        In      0.000     29.025      -         
+=================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+I-2013.09-SP1 
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:07s; Memory used current: 52MB peak: 146MB)
+
+Process took 0h:00m:10s realtime, 0h:00m:07s cputime
+# Wed Mar 25 21:04:16 2015
+
+###########################################################]

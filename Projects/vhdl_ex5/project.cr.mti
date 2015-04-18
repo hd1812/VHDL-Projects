@@ -1,0 +1,146 @@
+H:/vhdl_ex5/project_pack.vhd {1 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex5/project_pack.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package config_pack
+-- Loading package NUMERIC_STD
+-- Compiling package project_pack
+-- Compiling package body project_pack
+-- Loading package project_pack
+
+} {} {}} H:/vhdl_ex5/vdp_testbench.vhd {1 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex5/vdp_testbench.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utility_pack
+-- Loading package config_pack
+-- Loading package vdp_pack
+-- Compiling entity vdp_testbench
+-- Compiling architecture behav of vdp_testbench
+-- Loading entity vram
+-- Loading package std_logic_arith
+-- Loading package project_pack
+-- Loading entity vdp
+
+} {} {}} H:/vhdl_ex5/utility_pack.vhd {2 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex5/utility_pack.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package utility_pack
+-- Compiling package body utility_pack
+-- Loading package utility_pack
+** Warning: H:/vhdl_ex5/utility_pack.vhd(357): (vcom-1236) Shared variables must be of a protected type.
+
+
+} {} {}} H:/vhdl_ex5/vram.vhd {1 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex5/vram.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utility_pack
+-- Loading package config_pack
+-- Loading package vdp_pack
+-- Compiling entity vram
+-- Compiling architecture behav of vram
+
+} {} {}} H:/vhdl_ex5/vdp.vhd {1 {vcom -work work -93 -explicit -check_synthesis -vopt H:/vhdl_ex5/vdp.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package config_pack
+-- Loading package NUMERIC_STD
+-- Loading package project_pack
+-- Compiling entity vdp
+-- Compiling architecture rtl of vdp
+-- Loading package utility_pack
+-- Loading package vdp_pack
+-- Loading entity db_behav
+-- Loading entity rcb
+-- Loading entity adapter_rcb
+
+} {} {}} H:/vhdl_ex5/rcb.vhd {1 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex5/rcb.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package config_pack
+-- Loading package project_pack
+-- Compiling entity rcb
+-- Compiling architecture rtl1 of rcb
+
+} {} {}} H:/vhdl_ex5/adapter_rcb.vhd {1 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex5/adapter_rcb.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package config_pack
+-- Loading package project_pack
+-- Loading entity rcb
+-- Compiling entity adapter_rcb
+-- Compiling architecture rtl2 of adapter_rcb
+
+} {} {}} H:/vhdl_ex5/config_pack.vhd {1 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex5/config_pack.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package config_pack
+
+} {} {}} H:/vhdl_ex5/vdp_pack.vhd {2 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex5/vdp_pack.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utility_pack
+-- Loading package config_pack
+-- Compiling package vdp_pack
+** Warning: H:/vhdl_ex5/vdp_pack.vhd(30): (vcom-1236) Shared variables must be of a protected type.
+
+** Warning: H:/vhdl_ex5/vdp_pack.vhd(31): (vcom-1236) Shared variables must be of a protected type.
+
+** Warning: H:/vhdl_ex5/vdp_pack.vhd(46): (vcom-1236) Shared variables must be of a protected type.
+
+** Warning: H:/vhdl_ex5/vdp_pack.vhd(47): (vcom-1236) Shared variables must be of a protected type.
+
+** Warning: H:/vhdl_ex5/vdp_pack.vhd(48): (vcom-1236) Shared variables must be of a protected type.
+
+** Warning: H:/vhdl_ex5/vdp_pack.vhd(49): (vcom-1236) Shared variables must be of a protected type.
+
+** Warning: H:/vhdl_ex5/vdp_pack.vhd(118): (vcom-1236) Shared variables must be of a protected type.
+
+** Warning: H:/vhdl_ex5/vdp_pack.vhd(119): (vcom-1236) Shared variables must be of a protected type.
+
+** Warning: H:/vhdl_ex5/vdp_pack.vhd(149): (vcom-1236) Shared variables must be of a protected type.
+
+** Warning: H:/vhdl_ex5/vdp_pack.vhd(150): (vcom-1236) Shared variables must be of a protected type.
+
+-- Compiling package body vdp_pack
+-- Loading package vdp_pack
+
+} {} {}} H:/vhdl_ex5/db_behav_new.vhd {2 {vcom -work work -2002 -explicit -vopt H:/vhdl_ex5/db_behav_new.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utility_pack
+-- Loading package config_pack
+-- Loading package vdp_pack
+-- Loading package project_pack
+-- Compiling entity db_behav
+-- Compiling architecture behav of db_behav
+** Warning: H:/vhdl_ex5/db_behav_new.vhd(35): (vcom-1236) Shared variables must be of a protected type.
+
+
+} {} {}}

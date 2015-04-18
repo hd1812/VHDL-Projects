@@ -1,0 +1,11 @@
+# Compile of config_pack.vhd was successful.
+# Compile of project_pack.vhd was successful.
+# Compile of adapter_rcb.vhd was successful.
+# Compile of utility_pack.vhd was successful with warnings.
+# Compile of vdp_pack.vhd was successful with warnings.
+# Compile of vram.vhd was successful.
+# Compile of db_behav_new.vhd was successful with warnings.
+# Compile of vdp.vhd was successful.
+# Compile of vdp_testbench.vhd was successful.
+# Compile of rcb.vhd was successful.
+# 10 compiles, 0 failed with no errors. 

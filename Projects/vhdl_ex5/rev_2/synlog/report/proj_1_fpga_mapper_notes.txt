@@ -1,0 +1,27 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MT206 |Auto Constrain mode is enabled
+@N: MT336 |Time borrowing improved slack from -2.7003 ns  to -1.4541 ns.  
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state_i[9] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":42:9:42:13|Removing sequential instance r1.state[1] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":42:9:42:13|Removing sequential instance r1.state[0] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":54:9:54:17|Removing sequential instance r1.clear\.scan_done of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":57:9:57:14|Removing sequential instance r1.rstate[0] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":57:9:57:14|Removing sequential instance r1.rstate[1] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[4] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[8] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[0] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":64:9:64:21|Removing sequential instance r1.cmd_type\.draw_or_clear of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[7] of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[3] of view:ALTERA_APEX.S_DFFE_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[6] of view:ALTERA_APEX.S_DFFE_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\db.vhd":232:9:232:13|Removing sequential instance d1.state[1] of view:ALTERA_APEX.S_DFFE_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: BN362 :"h:\vdp\rcb.vhd":65:9:65:25|Removing sequential instance r1.clear\.draw_or_clear_old of view:ALTERA_APEX.S_DFF_P(PRIM) in hierarchy view:work.vdp(rtl) because there are no references to its outputs 
+@N: MF321 |2 registers to be packed into RAMs/DSPs blocks 
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.

@@ -1,0 +1,59 @@
+@N: CD630 :"H:\vdp\vdp.vhd":11:7:11:9|Synthesizing work.vdp.rtl 
+@N: CD630 :"H:\vdp\rcb.vhd":6:7:6:9|Synthesizing work.rcb.rtl1 
+@N: CD233 :"H:\vdp\rcb.vhd":41:17:41:18|Using sequential encoding for type state_t
+@N: CD233 :"H:\vdp\rcb.vhd":56:18:56:19|Using sequential encoding for type rstate_t
+@N: CD364 :"H:\vdp\rcb.vhd":205:1:205:8|Removed redundant assignment
+@N: CD364 :"H:\vdp\rcb.vhd":206:1:206:8|Removed redundant assignment
+Post processing for work.rcb.rtl1
+@N: CD630 :"H:\vdp\db.vhd":204:7:204:8|Synthesizing work.db.rtl 
+@N: CD231 :"H:\vdp\db.vhd":231:17:231:18|Using onehot encoding for type state_t (idle="1000000000")
+@N: CD630 :"H:\vdp\db.vhd":149:7:149:21|Synthesizing work.draw_any_octant.comb 
+@N: CD630 :"H:\vdp\db.vhd":6:7:6:17|Synthesizing work.draw_octant.comb 
+Post processing for work.draw_octant.comb
+@N: CD630 :"H:\vdp\db.vhd":117:7:117:9|Synthesizing work.inv.i1 
+Post processing for work.inv.i1
+@N: CD630 :"H:\vdp\db.vhd":87:7:87:10|Synthesizing work.swap.s1 
+Post processing for work.swap.s1
+Post processing for work.draw_any_octant.comb
+Post processing for work.db.rtl
+@W: CL117 :"H:\vdp\db.vhd":262:2:262:3|Latch generated from process for signal swap; possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":430:2:430:3|Latch generated from process for signal dbb.Y(5 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":430:2:430:3|Latch generated from process for signal dbb.X(5 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":339:4:339:7|Latch generated from process for signal dbb.rcb_cmd(2 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":262:2:262:3|Latch generated from process for signal negy; possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":262:2:262:3|Latch generated from process for signal negx; possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":300:6:300:7|Latch generated from process for signal ynew(5 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":300:6:300:7|Latch generated from process for signal xnew(5 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":339:4:339:7|Latch generated from process for signal sel; possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":339:4:339:7|Latch generated from process for signal yhold(5 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":339:4:339:7|Latch generated from process for signal xhold(5 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":339:4:339:7|Latch generated from process for signal pen(1 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"H:\vdp\db.vhd":339:4:339:7|Latch generated from process for signal cmd(1 downto 0); possible missing assignment in an if or case statement.
+Post processing for work.vdp.rtl
+@N: CL201 :"H:\vdp\db.vhd":232:9:232:13|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 10 reachable states with original encodings of:
+   0000000001
+   0000000010
+   0000000100
+   0000001000
+   0000010000
+   0000100000
+   0001000000
+   0010000000
+   0100000000
+   1000000000
+@N: CL201 :"H:\vdp\rcb.vhd":57:9:57:14|Trying to extract state machine for register rstate
+Extracted state machine for register rstate
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL201 :"H:\vdp\rcb.vhd":42:9:42:13|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11

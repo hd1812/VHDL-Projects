@@ -1,0 +1,71 @@
+#--  Synopsys, Inc.
+#--  Version I-2013.09-SP1 
+#--  Project file H:\vdp\rev_1\scratchproject.prs
+
+#project folders
+add_folder {vdp}  
+
+#project files
+add_file -vhdl -lib work -folder {vdp} "H:/vdp/db.vhd"
+add_file -vhdl -lib work -folder {vdp} "H:/vdp/rcb.vhd"
+add_file -vhdl -lib work -folder {vdp} "H:/vdp/vdp.vhd"
+add_file -vhdl -lib work -folder {vdp} "H:/vdp/config_pack.vhd"
+add_file -vhdl -lib work -folder {vdp} "H:/vdp/project_pack.vhd"
+add_file -vhdl -lib work -folder {vdp} "H:/vdp/utility_pack.vhd"
+
+
+
+#implementation: "rev_1"
+impl -add H:\vdp\rev_1 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -project_relative_includes 1
+set_option -include_path {H:/vdp/}
+
+#device options
+set_option -technology 3200DX
+set_option -part A3265DX
+set_option -package ""
+set_option -speed_grade -2
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "vdp"
+
+# mapper_options
+set_option -frequency 1.000000
+set_option -write_verilog 0
+set_option -write_vhdl 1
+set_option -srs_instrumentation 1
+
+# actel_options
+set_option -RWCheckOnRam 0
+
+# Microsemi 3200DX
+set_option -maxfan 16
+set_option -disable_io_insertion 0
+set_option -preserve_registers 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "H:/vdp/rev_1/proj_1.edn"
+
+#design plan options
+impl -active "rev_1"

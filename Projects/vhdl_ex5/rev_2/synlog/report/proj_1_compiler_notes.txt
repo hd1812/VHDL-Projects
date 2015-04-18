@@ -1,0 +1,19 @@
+@N|Running in 64-bit mode
+@N: CD720 :"C:\EEE\Synopsys\fpga_I-2013.09-SP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"H:\vdp\vdp.vhd":11:7:11:9|Top entity is set to vdp.
+@N: CD630 :"H:\vdp\vdp.vhd":11:7:11:9|Synthesizing work.vdp.rtl 
+@N: CD630 :"H:\vdp\rcb.vhd":6:7:6:9|Synthesizing work.rcb.rtl1 
+@N: CD233 :"H:\vdp\rcb.vhd":41:17:41:18|Using sequential encoding for type state_t
+@N: CD233 :"H:\vdp\rcb.vhd":56:18:56:19|Using sequential encoding for type rstate_t
+@N: CD364 :"H:\vdp\rcb.vhd":205:1:205:8|Removed redundant assignment
+@N: CD364 :"H:\vdp\rcb.vhd":206:1:206:8|Removed redundant assignment
+@N: CD630 :"H:\vdp\db.vhd":204:7:204:8|Synthesizing work.db.rtl 
+@N: CD231 :"H:\vdp\db.vhd":231:17:231:18|Using onehot encoding for type state_t (idle="1000000000")
+@N: CD630 :"H:\vdp\db.vhd":149:7:149:21|Synthesizing work.draw_any_octant.comb 
+@N: CD630 :"H:\vdp\db.vhd":6:7:6:17|Synthesizing work.draw_octant.comb 
+@N: CD630 :"H:\vdp\db.vhd":117:7:117:9|Synthesizing work.inv.i1 
+@N: CD630 :"H:\vdp\db.vhd":87:7:87:10|Synthesizing work.swap.s1 
+@N: CL201 :"H:\vdp\db.vhd":232:9:232:13|Trying to extract state machine for register state
+@N: CL201 :"H:\vdp\rcb.vhd":57:9:57:14|Trying to extract state machine for register rstate
+@N: CL201 :"H:\vdp\rcb.vhd":42:9:42:13|Trying to extract state machine for register state
+

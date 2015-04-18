@@ -1,0 +1,3 @@
+@W: FF137 |Setting fanout limit to 16 
+@W: BN119 |Global frequency too slow at 0.100MHz, resetting it to 1MHz(1000ns)
+@W: MT420 |Found inferred clock vdp|clk with period 1000.00ns. Please declare a user-defined clock on object "p:clk"

@@ -1,0 +1,2 @@
+@E: CD147 :"H:\vdp\vdp.vhd":23:2:23:6|Variable vaddr should have a constrained type
+

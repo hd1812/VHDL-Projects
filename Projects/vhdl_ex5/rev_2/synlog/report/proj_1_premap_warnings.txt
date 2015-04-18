@@ -1,0 +1,10 @@
+@W: FA109 :"h:\vdp\db.vhd":117:7:117:9|Changing sub-design name INV to INV_synplcty to avoid name collision with Altera primitive, LPM name or Verilog reserved word. 
+@W: FA401 |Found flip-flop with unsupported asynchronous set. Implemented set functionality by creating a latch.
+@W: MT462 :"h:\vdp\db.vhd":342:20:342:51|Net d1.cmd_0_sqmuxa appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":232:9:232:13|Net d1.nstate_1_sqmuxa appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":279:31:279:50|Net d1.xnew_1_sqmuxa_1 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":430:5:430:22|Net d1.dbb\.X_1_sqmuxa_1 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":339:4:339:7|Net d1.un1_pen_6 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"h:\vdp\db.vhd":339:4:339:7|Net d1.un1_state_4 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT531 :"h:\vdp\db.vhd":339:4:339:7|Found signal identified as System clock which controls 55 sequential elements including d1.sel.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"h:\vdp\db.vhd":21:9:21:34|Found inferred clock vdp|clk which controls 172 sequential elements including d1.OCT.DRAW1.R1\.error[5:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

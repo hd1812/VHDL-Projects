@@ -1,0 +1,291 @@
+project open H:/vdp/vdp
+vsim -gui work.vdp_testbench
+# vsim -gui work.vdp_testbench 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.utility_pack(body)
+# Loading work.config_pack
+# Loading work.vdp_pack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.project_pack(body)
+# Loading work.vdp_testbench(behav)#1
+# Loading work.vdp(rtl)#1
+# Loading work.rcb(rtl1)#1
+# Compile of config_pack.vhd was successful.
+# Compile of utility_pack.vhd was successful.
+# Compile of vdp.vhd failed with 4 errors.
+# Compile of vdp_pack.vhd was successful.
+# Compile of vdp_testbench.vhd failed with 6 errors.
+# Compile of vram.vhd was successful with warnings.
+# Compile of project_pack.vhd was successful.
+# Compile of rcb.vhd was successful.
+# Compile of db.vhd was successful.
+# 9 compiles, 2 failed with 10 errors. 
+# Compile of config_pack.vhd was successful.
+# Compile of utility_pack.vhd was successful.
+# Compile of vdp.vhd was successful.
+# Compile of vdp_pack.vhd was successful.
+# Compile of vdp_testbench.vhd was successful.
+# Compile of vram.vhd was successful.
+# Compile of project_pack.vhd was successful.
+# Compile of rcb.vhd was successful.
+# Compile of db.vhd was successful.
+do wave.do
+# Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package config_pack
+# -- Loading package project_pack
+# -- Compiling entity rcb
+# -- Compiling architecture rtl1 of rcb
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# 
+# Use vdir -l command to find such design units.
+# 
+# ** Warning: (vopt-13) Recompile work.vdp(rtl) because work.rcb has changed.
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "db(rtl)".
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.utility_pack(body)
+# Loading work.config_pack
+# Loading work.vdp_pack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.project_pack(body)
+# Loading work.vdp_testbench(behav)#1
+# Loading work.vdp(rtl)#1
+# Loading work.rcb(rtl1)#1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /vdp_testbench/DUT/r1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /vdp_testbench/RAM1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /vdp_testbench/RAM1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 5 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5 ns  Iteration: 2  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: write pulse < twp
+#    Time: 5 ns  Iteration: 3  Instance: /vdp_testbench/RAM1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 25 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 25 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 45 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 45 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 55 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 55 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 65 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 65 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 75 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 75 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 85 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 85 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 95 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 95 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Note: Reading command:1
+#    Time: 100 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:2
+#    Time: 100 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:3
+#    Time: 100 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 105 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 105 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Note: Reading command:4
+#    Time: 105 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 115 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 115 ns  Iteration: 1  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 115 ns  Iteration: 5  Instance: /vdp_testbench/DUT/d1/OCT/DRAW1
+# ** Note: Reading command:5
+#    Time: 125 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:6
+#    Time: 515 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:7
+#    Time: 535 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:8
+#    Time: 925 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:9
+#    Time: 945 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:10
+#    Time: 1335 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:11
+#    Time: 1355 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:12
+#    Time: 1805 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:13
+#    Time: 1825 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:14
+#    Time: 2365 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:15
+#    Time: 2385 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:16
+#    Time: 2865 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:17
+#    Time: 2885 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:18
+#    Time: 3365 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:19
+#    Time: 3385 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:20
+#    Time: 3775 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:21
+#    Time: 3795 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:22
+#    Time: 4185 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:23
+#    Time: 4205 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:24
+#    Time: 4655 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:25
+#    Time: 4675 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:26
+#    Time: 5065 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:27
+#    Time: 5085 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:28
+#    Time: 5625 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:29
+#    Time: 5645 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:30
+#    Time: 6125 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:31
+#    Time: 6145 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:32
+#    Time: 6535 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:33
+#    Time: 6555 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:34
+#    Time: 7005 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:35
+#    Time: 7025 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:36
+#    Time: 7025 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:37
+#    Time: 7415 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:38
+#    Time: 7435 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:39
+#    Time: 7435 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:40
+#    Time: 9635 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:41
+#    Time: 9835 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: Reading command:42
+#    Time: 9855 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: skipping line: 43
+#    Time: 9855 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Note: skipping line: 44
+#    Time: 9855 ns  Iteration: 1  Instance: /vdp_testbench
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++*+++++++++*+++++++++*+++++++++*+++++++++*+++++++++++
+# +++++++++++++*++++++++*+++++++++*++++++++*+++++++++*++++++++++++
+# ++++++++++++++*++++++++*++++++++*++++++++*++++++++*+++++++++++++
+# +++++++++++++++*+++++++*++++++++*+++++++*++++++++*++++++++++++++
+# ++++++++++++++++*+++++++*+++++++*+++++++*+++++++*+++++++++++++++
+# +++++++++++++++++*++++++*+++++++*++++++*+++++++*++++++++++++++++
+# ++++++++++++++++++*++++++*++++++*++++++*++++++*+++++++++++++++++
+# +++++++++++++++++++*+++++*++++++*+++++*++++++*++++++++++++++++++
+# ++++++++++++++++++++*+++++*+++++*+++++*+++++*+++++++++++++++++++
+# +++++++++++++++++++++*++++*+++++*++++*+++++*++++++++++++++++++++
+# ++++++++++++*+++++++++*++++*++++*++++*++++*++++++++**+++++++++++
+# +++++++++++++**++++++++*+++*++++*+++*++++*+++++++**+++++++++++++
+# +++++++++++++++**+++++++*+++*+++*+++*+++*++++++**+++++++++++++++
+# +++++++++++++++++**++++++*++*+++*++*+++*+++++**+++++++++++++++++
+# +++++++++++++++++++**+++++*++*++*++*++*++++**+++++++++++++++++++
+# +++++++++++++++++++++**++++*+*++*+*++*+++**+++++++++++++++++++++
+# +++++++++++++++++++++++**+++*+*+*+*+*++**+++++++++++++++++++++++
+# +++++++++++++++++++++++++**++**+**+*+**+++++++++++++++++++++++++
+# +++++++++++++++++++++++++++**+*******+++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++******+++++++++++++++++++++++++++++
+# ++++++++++++*****************************************+++++++++++
+# ++++++++++++++++++++++++++++++******++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++*******+**++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++**+*+**+**++**++++++++++++++++++++++++
+# ++++++++++++++++++++++++**++*+*+*+*+*+++**++++++++++++++++++++++
+# ++++++++++++++++++++++**+++*++*+*++*+*++++**++++++++++++++++++++
+# ++++++++++++++++++++**++++*++*++*++*++*+++++**++++++++++++++++++
+# ++++++++++++++++++**+++++*+++*++*+++*++*++++++**++++++++++++++++
+# ++++++++++++++++**++++++*+++*+++*+++*+++*+++++++**++++++++++++++
+# ++++++++++++++**+++++++*++++*+++*++++*+++*++++++++**++++++++++++
+# ++++++++++++**++++++++*++++*++++*++++*++++*+++++++++*+++++++++++
+# +++++++++++++++++++++*+++++*++++*+++++*++++*++++++++++++++++++++
+# ++++++++++++++++++++*+++++*+++++*+++++*+++++*+++++++++++++++++++
+# +++++++++++++++++++*++++++*+++++*++++++*+++++*++++++++++++++++++
+# ++++++++++++++++++*++++++*++++++*++++++*++++++*+++++++++++++++++
+# +++++++++++++++++*+++++++*++++++*+++++++*++++++*++++++++++++++++
+# ++++++++++++++++*+++++++*+++++++*+++++++*+++++++*+++++++++++++++
+# +++++++++++++++*++++++++*+++++++*++++++++*+++++++*++++++++++++++
+# ++++++++++++++*++++++++*++++++++*++++++++*++++++++*+++++++++++++
+# +++++++++++++*+++++++++*++++++++*+++++++++*++++++++*++++++++++++
+# ++++++++++++*+++++++++*+++++++++*+++++++++*+++++++++*+++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +*********++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# *+*******+*+++++++++++++++++++++++++++++++++++++++++++++++++++++
+# **+*****+**+++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ***+***+***+++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ****+*+****+++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ***********+++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ****+*+****+++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ***+***+***+++++++++++++++++++++++++++++++++++++++++++++++++++++
+# **+*****+**+++++++++++++++++++++++++++++++++++++++++++++++++++++
+# *+*******+*+++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +*********++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ** Note: Commands from: full_commands.txt, VDP PASSED.
+#    Time: 10455 ns  Iteration: 1  Instance: /vdp_testbench
+# ** Failure: Test finished normally.
+#    Time: 10455 ns  Iteration: 1  Process: /vdp_testbench/MAIN File: H:/vdp/vdp_testbench.vhd
+# Break in Process MAIN at H:/vdp/vdp_testbench.vhd line 212
+# Simulation Breakpoint: Break in Process MAIN at H:/vdp/vdp_testbench.vhd line 212
+# MACRO ./wave.do PAUSED at line 24
+# can't read "winData(0,tabid)": no such element in array
+# error on .main_pane.source -closecommand : expected boolean value but got "can't read "winData(0,fid)": no such element in ar"
